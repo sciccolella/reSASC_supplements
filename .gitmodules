@@ -1,0 +1,3 @@
+[submodule "tools/sasc_rec"]
+	path = tools/sasc_rec
+	url = git@github.com:sciccolella/sasc_rec.git
