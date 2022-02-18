@@ -1,0 +1,56 @@
+SASC_REC="tools/sasc_rec/sasc"
+SASC="tools/sasc/sasc"
+SASC_ITERS=1
+
+sasc_rec = {
+    requires TOTCELLS : "number of cells"
+    requires TOTMUTS : "number of mutations"
+    requires FNRATE : "fn rate"
+    requires FPRATE : "fp rate"
+    requires MAXL : "max losses rate"
+    requires MAXR : "max recurrences rate"
+    produce(input.prefix+".sasc_rec.mlt.gv",input.prefix+".sasc_rec.out.txt") {
+        exec """
+            $SASC_REC -i $input -m $TOTMUTS -n $TOTCELLS -r 1 -b $FPRATE -a $FNRATE -k $MAXL -j $MAXR -r $SASC_ITERS -p $threads -x -P ${input.prefix}.sasc_rec
+        """
+    }
+}
+
+sasc = {
+    requires TOTCELLS : "number of cells"
+    requires TOTMUTS : "number of mutations"
+    requires FNRATE : "fn rate"
+    requires FPRATE : "fp rate"
+    requires MAXL : "max losses rate"
+    
+    produce(input.prefix+".sasc.mlt.gv",input.prefix+".sasc.out.txt") {
+        exec """
+            $SASC -i $input -m $TOTMUTS -n $TOTCELLS -r 1 -b $FPRATE -a $FNRATE -k $MAXL -r $SASC_ITERS -p $threads -x  -P ${input.prefix}.sasc
+        """
+    }
+}
+
+plot = {
+    requires PLOTDIR : "plot dir"
+    requires EXPDIR : "results outdir"
+    exec """
+        python comparison/plotting/make.py  \
+            --tground data/$EXPDIR/*_truetree.gv  \
+            --tloaders sasc sasc  \
+            --ttools data/$EXPDIR/*.sasc_rec.mlt.gv  \
+            --ttools data/$EXPDIR/*.sasc.mlt.gv  \
+            --names "reSASC" SASC \
+            --mgroundT data/$EXPDIR/sim_*_truescs.txt  \
+            --mgroundN data/$EXPDIR/sim_*_scs.txt  \
+            --mtools data/$EXPDIR/*.sasc_rec.out.txt  \
+            --mtools data/$EXPDIR/*.sasc.out.txt  \
+            --exp $EXPDIR -o $PLOTDIR
+    """
+}
+
+Bpipe.run { 
+    "sim_%_scs.txt" * [
+            sasc,
+            sasc_rec
+        ] //+ plot.using(PLOTDIR:"test")
+}

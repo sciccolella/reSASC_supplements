@@ -1,0 +1,12 @@
+Cells: 250
+Mutations 50
+TOT losses: 1
+TOT recurrences: 2
+FN rate: 0.150000
+FP rate: 0.000010
+NA rate: 0.100000
+False negatives added: 392
+False positive added: 0
+Missing values added: 1278
+Deleted mutations: 22
+Recurrent mutations: 13,19
