@@ -1,0 +1,108 @@
+==================================================
+Loading files
+==================================================
+Computing tree accuracies
+Computing MP3
+Computing Recurrents
+[{'34', '11', '25'}, {'6', '11', '43'}, {'14', '46'}, {'10', '3', '24'}, {'5', '33', '24'}, {'11', '20', '43'}, {'37', '32', '31'}, {'19', '18', '21'}, {'18', '16'}, {'42', '1', '33'}, {'47', '1', '27'}, {'16', '21', '20'}, {'2', '3', '38'}, {'10', '29'}, {'2', '10', '38'}, {'13', '32', '35'}, {'48', '22', '26'}, {'1', '37', '21'}, {'6', '26'}, {'32', '24', '38'}, {'5', '15', '25'}, {'22', '33', '27'}, {'31', '21', '44'}, {'2', '8', '1'}, {'37', '24', '41'}, {'46', '8', '36'}, {'50', '18', '9'}, {'41', '35'}, {'1', '22', '43'}, {'42', '5', '28'}, {'17', '50', '8'}, {'29', '9', '24'}, {'42', '47', '44'}, {'10', '31', '23'}, {'14', '29', '18'}, {'14', '20', '28'}, {'2', '7', '25'}, {'37', '5', '21'}, {'19', '39'}, {'34', '27', '10'}, {'3', '25'}, {'40', '22', '13'}, {'3', '45', '38'}, {'34', '17'}, {'7', '48', '13'}, {'6', '33', '41'}, {'17', '9'}, {'31', '24', '27'}, {'21', '15', '45'}, {'41', '38'}]
+data/exp2/sim_1_scs.sasc_rec.mlt.gv {'34'}
+data/exp2/sim_2_scs.sasc_rec.mlt.gv {'11'}
+data/exp2/sim_3_scs.sasc_rec.mlt.gv {'14'}
+data/exp2/sim_4_scs.sasc_rec.mlt.gv {'3', '24'}
+data/exp2/sim_5_scs.sasc_rec.mlt.gv {'33'}
+data/exp2/sim_6_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_7_scs.sasc_rec.mlt.gv {'37'}
+data/exp2/sim_8_scs.sasc_rec.mlt.gv {'18'}
+data/exp2/sim_9_scs.sasc_rec.mlt.gv {'16'}
+data/exp2/sim_10_scs.sasc_rec.mlt.gv {'1'}
+data/exp2/sim_11_scs.sasc_rec.mlt.gv {'27'}
+data/exp2/sim_12_scs.sasc_rec.mlt.gv {'16'}
+data/exp2/sim_13_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_14_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_15_scs.sasc_rec.mlt.gv {'2'}
+data/exp2/sim_16_scs.sasc_rec.mlt.gv {'32'}
+data/exp2/sim_17_scs.sasc_rec.mlt.gv {'26'}
+data/exp2/sim_18_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_19_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_20_scs.sasc_rec.mlt.gv {'38'}
+data/exp2/sim_21_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_22_scs.sasc_rec.mlt.gv {'22', '27'}
+data/exp2/sim_23_scs.sasc_rec.mlt.gv {'31'}
+data/exp2/sim_24_scs.sasc_rec.mlt.gv {'2', '8'}
+data/exp2/sim_25_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_26_scs.sasc_rec.mlt.gv {'8'}
+data/exp2/sim_27_scs.sasc_rec.mlt.gv {'9'}
+data/exp2/sim_28_scs.sasc_rec.mlt.gv {'41'}
+data/exp2/sim_29_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_30_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_31_scs.sasc_rec.mlt.gv {'50'}
+data/exp2/sim_32_scs.sasc_rec.mlt.gv {'24'}
+data/exp2/sim_33_scs.sasc_rec.mlt.gv {'42'}
+data/exp2/sim_34_scs.sasc_rec.mlt.gv {'10', '31'}
+data/exp2/sim_35_scs.sasc_rec.mlt.gv {'14'}
+data/exp2/sim_36_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_37_scs.sasc_rec.mlt.gv {'7'}
+data/exp2/sim_38_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_39_scs.sasc_rec.mlt.gv {'39'}
+data/exp2/sim_40_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_41_scs.sasc_rec.mlt.gv {'3'}
+data/exp2/sim_42_scs.sasc_rec.mlt.gv {'22'}
+data/exp2/sim_43_scs.sasc_rec.mlt.gv {'3'}
+data/exp2/sim_44_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_45_scs.sasc_rec.mlt.gv {'13'}
+data/exp2/sim_46_scs.sasc_rec.mlt.gv {'33'}
+data/exp2/sim_47_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_48_scs.sasc_rec.mlt.gv set()
+data/exp2/sim_49_scs.sasc_rec.mlt.gv {'21'}
+data/exp2/sim_50_scs.sasc_rec.mlt.gv {'41', '38'}
+data/exp2/sim_1_scs.sasc.mlt.gv set()
+data/exp2/sim_2_scs.sasc.mlt.gv set()
+data/exp2/sim_3_scs.sasc.mlt.gv set()
+data/exp2/sim_4_scs.sasc.mlt.gv set()
+data/exp2/sim_5_scs.sasc.mlt.gv set()
+data/exp2/sim_6_scs.sasc.mlt.gv set()
+data/exp2/sim_7_scs.sasc.mlt.gv set()
+data/exp2/sim_8_scs.sasc.mlt.gv set()
+data/exp2/sim_9_scs.sasc.mlt.gv set()
+data/exp2/sim_10_scs.sasc.mlt.gv set()
+data/exp2/sim_11_scs.sasc.mlt.gv set()
+data/exp2/sim_12_scs.sasc.mlt.gv set()
+data/exp2/sim_13_scs.sasc.mlt.gv set()
+data/exp2/sim_14_scs.sasc.mlt.gv set()
+data/exp2/sim_15_scs.sasc.mlt.gv set()
+data/exp2/sim_16_scs.sasc.mlt.gv set()
+data/exp2/sim_17_scs.sasc.mlt.gv set()
+data/exp2/sim_18_scs.sasc.mlt.gv set()
+data/exp2/sim_19_scs.sasc.mlt.gv set()
+data/exp2/sim_20_scs.sasc.mlt.gv set()
+data/exp2/sim_21_scs.sasc.mlt.gv set()
+data/exp2/sim_22_scs.sasc.mlt.gv set()
+data/exp2/sim_23_scs.sasc.mlt.gv set()
+data/exp2/sim_24_scs.sasc.mlt.gv set()
+data/exp2/sim_25_scs.sasc.mlt.gv set()
+data/exp2/sim_26_scs.sasc.mlt.gv set()
+data/exp2/sim_27_scs.sasc.mlt.gv set()
+data/exp2/sim_28_scs.sasc.mlt.gv set()
+data/exp2/sim_29_scs.sasc.mlt.gv set()
+data/exp2/sim_30_scs.sasc.mlt.gv set()
+data/exp2/sim_31_scs.sasc.mlt.gv set()
+data/exp2/sim_32_scs.sasc.mlt.gv set()
+data/exp2/sim_33_scs.sasc.mlt.gv set()
+data/exp2/sim_34_scs.sasc.mlt.gv set()
+data/exp2/sim_35_scs.sasc.mlt.gv set()
+data/exp2/sim_36_scs.sasc.mlt.gv set()
+data/exp2/sim_37_scs.sasc.mlt.gv set()
+data/exp2/sim_38_scs.sasc.mlt.gv set()
+data/exp2/sim_39_scs.sasc.mlt.gv set()
+data/exp2/sim_40_scs.sasc.mlt.gv set()
+data/exp2/sim_41_scs.sasc.mlt.gv set()
+data/exp2/sim_42_scs.sasc.mlt.gv set()
+data/exp2/sim_43_scs.sasc.mlt.gv set()
+data/exp2/sim_44_scs.sasc.mlt.gv set()
+data/exp2/sim_45_scs.sasc.mlt.gv set()
+data/exp2/sim_46_scs.sasc.mlt.gv set()
+data/exp2/sim_47_scs.sasc.mlt.gv set()
+data/exp2/sim_48_scs.sasc.mlt.gv set()
+data/exp2/sim_49_scs.sasc.mlt.gv set()
+data/exp2/sim_50_scs.sasc.mlt.gv set()
+[[{'34'}, {'11'}, {'14'}, {'3', '24'}, {'33'}, set(), {'37'}, {'18'}, {'16'}, {'1'}, {'27'}, {'16'}, set(), set(), {'2'}, {'32'}, {'26'}, set(), set(), {'38'}, set(), {'22', '27'}, {'31'}, {'2', '8'}, set(), {'8'}, {'9'}, {'41'}, set(), set(), {'50'}, {'24'}, {'42'}, {'10', '31'}, {'14'}, set(), {'7'}, set(), {'39'}, set(), {'3'}, {'22'}, {'3'}, set(), {'13'}, {'33'}, set(), set(), {'21'}, {'41', '38'}], [set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()]]

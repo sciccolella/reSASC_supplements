@@ -1,0 +1,4 @@
+[console_scripts]
+msp = msprime.cli:msp_main
+mspms = msprime.cli:mspms_main
+

@@ -1,0 +1,4 @@
+bpipe.Runner	[1]	INFO	|10:37:20 Starting 
+bpipe.Runner	[1]	INFO	|10:37:20 OS: Linux (5.13.0-28-generic) Java: 11.0.13 Vendor: Ubuntu 
+bpipe.Runner	[1]	INFO	|10:37:20 Initializing plugins ... 
+bpipe.Config	[1]	INFO	|10:37:20 No plugins directory found: /data/sasc_rec_test/.bpipe/plugins 

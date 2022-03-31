@@ -1,0 +1,3 @@
+[console_scripts]
+demes = demes.__main__:cli
+

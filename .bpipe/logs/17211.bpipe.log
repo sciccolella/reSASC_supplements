@@ -1,0 +1,305 @@
+bpipe.Runner	[1]	INFO	|10:37:43 Starting 
+bpipe.Runner	[1]	INFO	|10:37:43 OS: Linux (5.13.0-28-generic) Java: 11.0.13 Vendor: Ubuntu 
+bpipe.Runner	[1]	INFO	|10:37:43 Initializing plugins ... 
+bpipe.Config	[1]	INFO	|10:37:43 No plugins directory found: /data/sasc_rec_test/.bpipe/plugins 
+bpipe.Runner	[1]	INFO	|10:37:43 =================== GUID=8e2bd7d3f99fca3068f46997f7d5a3d1b29d9f37 PID=17211 (17211) ============== 
+bpipe.Runner	[1]	INFO	|10:37:43 Adding CLI parameters: [EXPDIR=exp1, TOTCELLS=250, TOTMUTS=50, FNRATE=0.15, FPRATE=0.00001, MAXL=0, MAXR=3] 
+bpipe.Runner	[1]	INFO	|10:37:43 Reading user config ...  
+bpipe.Config	[1]	INFO	|10:37:43 No configuration file found in same dir as pipeline file /data/sasc_rec_test/bpipe.config 
+bpipe.Config	[1]	INFO	|10:37:43 No local configuration file found 
+bpipe.Utils	[28]	INFO	|10:37:44 Read config from /home/ciccolella/bpipe-0.9.11/bin/../bpipe.config executed in 0.315 seconds 
+bpipe.Utils	[1]	INFO	|10:37:44 Read user config executed in 0.472 seconds 
+bpipe.Runner	[1]	INFO	|10:37:44 Loading user configuration using environment: default 
+bpipe.Runner	[1]	INFO	|10:37:44 Maximum threads specified as 4 
+bpipe.Runner	[1]	INFO	|10:37:44 Loading tool database ...  
+bpipe.ToolDatabase	[29]	INFO	|10:37:44 Loading tool database from user configuration 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Configuring notifications based on : [:] 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool samtools 
+bpipe.Concurrency	[31]	INFO	|10:37:44 Creating thread pool with 8 threads to execute parallel pipelines 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool bwa 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool xhmm 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool ExomeDepth 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Trying class name file for notification channel file 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool VariantAnnotation 
+bpipe.Dependencies	[33]	INFO	|10:37:44 No cached output graph (outputGraph2.ser) available: will be computed from property files 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool CODEX 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool cn.mops 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool conifer 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool pandas 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool pysam 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool pytables 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool tables 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool matplotlib 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool seaborn 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool bowtie 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool fastqc 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool coverageBed 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool fastx_clipper 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool convert2annovar.pl 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool summarize_annovar.pl 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool bowtie2 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool GenomeAnalysisTK 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool MarkDuplicates 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool signalp 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool variant_effect_predictor.pl 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool igvtools 
+bpipe.Tool	[29]	INFO	|10:37:44 Configured meta data about tool ls 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Unable to create notification channel using class file: java.lang.ClassNotFoundException: file 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Trying class name bpipe.FILENotificationChannel for notification channel file 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Unable to create notification channel using class bpipe.FILENotificationChannel: java.lang.ClassNotFoundException: bpipe.FILENotificationChannel 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Trying class name bpipe.file for notification channel file 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Unable to create notification channel using class bpipe.file: java.lang.ClassNotFoundException: bpipe.file 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Trying class name bpipe.FileNotificationChannel for notification channel file 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Successfully created notification channel using class bpipe.FileNotificationChannel 
+bpipe.NotificationManager	[32]	INFO	|10:37:44 Subscribing channel file to event SEND 
+bpipe.Runner	[1]	INFO	|10:37:44 Parsing script ...  
+bpipe.Runner	[1]	INFO	|10:37:44 Run ...  
+bpipe.Pipeline	[1]	INFO	|10:37:44 Running with INPUT [data/exp1/sim_10_scs.txt] 
+PipelineCategory	[1]	INFO	|10:37:44 Found closure variable sasc_rec 
+PipelineCategory	[1]	INFO	|10:37:44 Found closure variable sasc 
+PipelineCategory	[1]	INFO	|10:37:44 Found closure variable plot 
+bpipe.NotificationManager	[1]	INFO	|10:37:44 Binding channel variable file 
+bpipe.Pipeline	[1]	WARNING	|10:37:44 Pipeline folder /home/ciccolella/bpipes could not be found 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Evaluating paths: [] 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Adding stages from evaluation of [/home/ciccolella/bpipes] 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Added stages from evaluation of [/home/ciccolella/bpipes] 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: file 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: file 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference file is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: EXPDIR 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference EXPDIR is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: TOTCELLS 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference TOTCELLS is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: TOTMUTS 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference TOTMUTS is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: FNRATE 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference FNRATE is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: FPRATE 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference FPRATE is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: MAXL 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference MAXL is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: MAXR 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference MAXR is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: args 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference args is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: SASC_REC 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference SASC_REC is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: SASC 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference SASC is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: SASC_ITERS 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference SASC_ITERS is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: sasc_rec 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference sasc_rec is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: sasc 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference sasc is overridden by local reference 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Loaded external reference: plot 
+bpipe.Pipeline	[1]	INFO	|10:37:44 External reference plot is overridden by local reference 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Found * pattern at [], hash at [] and % at [4] 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Sorted: [4] 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 % groups are at [0] 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Result is [pattern:sim_([^/]*?)_scs.txt, splits:[0]] 
+bpipe.storage.StorageLayer	[1]	INFO	|10:37:44 Check data/exp1/sim_10_scs.txt in storage bpipe.storage.LocalFileSystemStorageLayer@109f5dd8: true 
+bpipe.storage.StorageLayer	[1]	INFO	|10:37:44 Input data/exp1/sim_10_scs.txt resolved to storage type bpipe.storage.LocalFileSystemStorageLayer@109f5dd8 
+bpipe.Pipeline	[1]	INFO	|10:37:44 Running segment with inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Dependencies	[1]	INFO	|10:37:44 Checking 1 input (s)  
+bpipe.Utils	[1]	INFO	|10:37:44 Output folder scan (concurrency=5) executed in 0.007 seconds 
+bpipe.Dependencies	[1]	INFO	|10:37:44 There are 1 output groups 
+bpipe.Dependencies	[1]	INFO	|10:37:44 Subtracting 1 remaining outputs from 1 total outputs 
+bpipe.Dependencies	[1]	INFO	|10:37:44  data/exp1/sim_10_scs.txt / entry 1340086275  
+bpipe.Utils	[1]	INFO	|10:37:44 Index output graph executed in 0 
+bpipe.PipelineFile	[1]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.txt in storage bpipe.storage.LocalFileSystemStorageLayer@109f5dd8 
+bpipe.OutputDirectoryWatcher	[1]	INFO	|10:37:44 Creating directory watcher for . 
+bpipe.OutputDirectoryWatcher	[35]	INFO	|10:37:44 Watching directories using native watcher 
+bpipe.PipelineDelegate	[1]	INFO	|10:37:44 Setting or creating a delegate for context 1566099239 body 1437983537/java.lang.Class in thread 1 
+bpipe.PipelineDelegate	[1]	INFO	|10:37:44 Created new delegate bpipe.PipelineDelegate@1d782abe overriding type java.lang.Class in thread 1 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Found * pattern at [], hash at [] and % at [4] 
+bpipe.OutputDirectoryWatcher	[35]	INFO	|10:37:44 Using high sensitivity file watcher for . 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Sorted: [4] 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 % groups are at [0] 
+bpipe.InputSplitter	[1]	INFO	|10:37:44 Result is [pattern:sim_([^/]*?)_scs.txt, splits:[0]] 
+bpipe.OutputDirectoryWatcher	[35]	INFO	|10:37:44 Initialising watcher for . with 5 paths 
+PipelineCategory	[1]	INFO	|10:37:44 Created pipeline stage 1989219205 for parallel block 
+PipelineCategory	[1]	INFO	|10:37:44 Processing segment 478182173 
+PipelineCategory	[1]	INFO	|10:37:44 Creating pipeline to run parallel segment 10 with files [data/exp1/sim_10_scs.txt]. Branch filter = [] 
+PipelineCategory	[1]	INFO	|10:37:44 Processing segment 1417554340 
+PipelineCategory	[1]	INFO	|10:37:44 Creating pipeline to run parallel segment 10 with files [data/exp1/sim_10_scs.txt]. Branch filter = [] 
+bpipe.Concurrency	[1]	INFO	|10:37:44 Register resource requestor bpipe.Pipeline@aa10649 
+bpipe.Concurrency	[1]	INFO	|10:37:44 Register resource requestor bpipe.Pipeline@6b3871d6 
+bpipe.Concurrency	[1]	INFO	|10:37:44 Waiting for 2 parallel stages to complete (pool.active=2 pool.tasks=2) 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.txt] on context 277987942 in thread 37 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.txt] on context 1186789261 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.txt] 
+bpipe.Pipeline	[37]	INFO	|10:37:44 Created dummy prior stage for thread 37 with outputs : [data/exp1/sim_10_scs.txt] 
+bpipe.Pipeline	[38]	INFO	|10:37:44 Created dummy prior stage for thread 38 with outputs : [data/exp1/sim_10_scs.txt] 
+bpipe.Pipeline	[38]	INFO	|10:37:44 Running segment with inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Pipeline	[37]	INFO	|10:37:44 Running segment with inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Checking 1 input (s)  
+bpipe.Dependencies	[37]	INFO	|10:37:44 Checking 1 input (s)  
+bpipe.PipelineFile	[38]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.txt in storage bpipe.storage.LocalFileSystemStorageLayer@109f5dd8 
+bpipe.PipelineFile	[37]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.txt in storage bpipe.storage.LocalFileSystemStorageLayer@109f5dd8 
+bpipe.PipelineStage	[37]	INFO	|10:37:44 Stage sasc (10) : INPUT=[data/exp1/sim_10_scs.txt] OUTPUT=sim_10_scs.txt.sasc 
+bpipe.PipelineStage	[38]	INFO	|10:37:44 Stage sasc_rec (10) : INPUT=[data/exp1/sim_10_scs.txt] OUTPUT=sim_10_scs.txt.sasc_rec 
+bpipe.PipelineDelegate	[37]	INFO	|10:37:44 Setting or creating a delegate for context 1108381397 body 478182173/script1645177064235978445732 in thread 37 
+bpipe.PipelineDelegate	[38]	INFO	|10:37:44 Setting or creating a delegate for context 554621234 body 1417554340/script1645177064235978445732 in thread 38 
+bpipe.PipelineDelegate	[37]	INFO	|10:37:44 Created new delegate bpipe.PipelineDelegate@4ab3d4fb overriding type script1645177064235978445732 in thread 37 
+bpipe.PipelineDelegate	[38]	INFO	|10:37:44 Created new delegate bpipe.PipelineDelegate@2088142 overriding type script1645177064235978445732 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Producing [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] from bpipe.PipelineContext@42108ed5 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Producing [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] from bpipe.PipelineContext@210ed932 
+bpipe.storage.StorageLayer	[37]	INFO	|10:37:44 Default storage is null 
+bpipe.storage.StorageLayer	[38]	INFO	|10:37:44 Default storage is null 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] on context 1108381397 in thread 37 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on context 554621234 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.PipelineDelegate	[37]	INFO	|10:37:44 Setting or creating a delegate for context 1108381397 body 752163501/script1645177064235978445732$_run_closure2 in thread 37 
+bpipe.PipelineDelegate	[38]	INFO	|10:37:44 Setting or creating a delegate for context 554621234 body 216051659/script1645177064235978445732$_run_closure1 in thread 38 
+bpipe.PipelineDelegate	[37]	INFO	|10:37:44 Created new delegate bpipe.PipelineDelegate@7621e950 overriding type script1645177064235978445732$_run_closure2 in thread 37 
+bpipe.PipelineDelegate	[38]	INFO	|10:37:44 Created new delegate bpipe.PipelineDelegate@3f9975c5 overriding type script1645177064235978445732$_run_closure1 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Probing command using inputs [data/exp1/sim_10_scs.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Probing command using inputs [data/exp1/sim_10_scs.txt] 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Computing threads based on parallel branch count of 2 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Computing threads based on parallel branch count of 2 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Tracking outputs referenced=[[]] inferred=[[]] for command 
+            tools/sasc/sasc -i data/exp1/sim_10_scs.txt -m 50 -n 250 -r 1 -b 1.0E-5 -a 0.15 -k 0 -r 1 -p __bpipe_lazy_resource_threads__ -x  -P data/exp1/sim_10_scs.sasc
+         
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Tracking outputs referenced=[[]] inferred=[[]] for command 
+            tools/sasc_rec/sasc -i data/exp1/sim_10_scs.txt -m 50 -n 250 -r 1 -b 1.0E-5 -a 0.15 -k 0 -j 3 -r 1 -p __bpipe_lazy_resource_threads__ -x -P data/exp1/sim_10_scs.sasc_rec
+         
+bpipe.Command	[37]	INFO	|10:37:44 Checking for configuration for command tools/sasc/sasc 
+bpipe.Command	[38]	INFO	|10:37:44 Checking for configuration for command tools/sasc_rec/sasc 
+bpipe.Command	[37]	INFO	|10:37:44 Default command properties: [max_per_command_threads:16, executor:local] 
+bpipe.Command	[38]	INFO	|10:37:44 Default command properties: [max_per_command_threads:16, executor:local] 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Checking actual resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Checking actual resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.CommandId	[37]	WARNING	|10:37:44 Failed to parse command id text: [] 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Skip check dependencies due to probe mode 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Skip command start for tools/sasc/sasc -i data/exp1/sim_10_scs.txt -m 50 -n 250 -r 1 -b 1.0E-5 -a 0.15 -k 0 -r 1 -p __bpipe_lazy_resource_threads__ -x  -P data/exp1/sim_10_scs.sasc due to probe mode 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Skip check dependencies due to probe mode 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Skip command start for tools/sasc_rec/sasc -i data/exp1/sim_10_scs.txt -m 50 -n 250 -r 1 -b 1.0E-5 -a 0.15 -k 0 -j 3 -r 1 -p __bpipe_lazy_resource_threads__ -x -P data/exp1/sim_10_scs.sasc_rec due to probe mode 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Finished probe 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Finished probe 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Tracked commands after probe are: 0 with associated command: 0 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Tracked commands after probe are: 1 with associated command: 1 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Setting output [] on context 1108381397 in thread 37 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Setting output [] on context 554621234 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Checking [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Checking [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.Utils	[37]	INFO	|10:37:44 ===== Check data/exp1/sim_10_scs.sasc.mlt.gv ===== 
+bpipe.Utils	[38]	INFO	|10:37:44 ===== Check data/exp1/sim_10_scs.sasc_rec.mlt.gv ===== 
+bpipe.Utils	[37]	INFO	|10:37:44 Checking data/exp1/sim_10_scs.sasc.mlt.gv against inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Utils	[38]	INFO	|10:37:44 Checking data/exp1/sim_10_scs.sasc_rec.mlt.gv against inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Utils	[37]	INFO	|10:37:44 No inputs are newer than data/exp1/sim_10_scs.sasc.mlt.gv 
+bpipe.Utils	[38]	INFO	|10:37:44 No inputs are newer than data/exp1/sim_10_scs.sasc_rec.mlt.gv 
+bpipe.Utils	[37]	INFO	|10:37:44 ===== Check data/exp1/sim_10_scs.sasc.out.txt ===== 
+bpipe.Utils	[38]	INFO	|10:37:44 ===== Check data/exp1/sim_10_scs.sasc_rec.out.txt ===== 
+bpipe.Utils	[37]	INFO	|10:37:44 Checking data/exp1/sim_10_scs.sasc.out.txt against inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Utils	[38]	INFO	|10:37:44 Checking data/exp1/sim_10_scs.sasc_rec.out.txt against inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Utils	[37]	INFO	|10:37:44 No inputs are newer than data/exp1/sim_10_scs.sasc.out.txt 
+bpipe.Utils	[38]	INFO	|10:37:44 No inputs are newer than data/exp1/sim_10_scs.sasc_rec.out.txt 
+bpipe.Dependencies	[37]	INFO	|10:37:44 No missing / older files from inputs: [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] are up to date 
+bpipe.Dependencies	[38]	INFO	|10:37:44 No missing / older files from inputs: [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] are up to date 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Skipping produce body 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Skipping produce body 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] on context 1108381397 in thread 37 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Setting output [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on context 554621234 in thread 38 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Actual output set: [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.PipelineContext	[37]	INFO	|10:37:44 Adding outputs [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] as a result of produce 
+bpipe.PipelineContext	[38]	INFO	|10:37:44 Adding outputs [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] as a result of produce 
+bpipe.PipelineStage	[37]	INFO	|10:37:44 Stage sasc (10) returned null as default inputs for next stage 
+bpipe.PipelineStage	[38]	INFO	|10:37:44 Stage sasc_rec (10) returned null as default inputs for next stage 
+bpipe.PipelineStage	[37]	INFO	|10:37:44 Inferring nextInputs from explicit output as [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+bpipe.PipelineStage	[38]	INFO	|10:37:44 Inferring nextInputs from explicit output as [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.PipelineStage	[37]	INFO	|10:37:44 Setting next inputs [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] on stage 761390078, context 1108381397 in thread 37 
+bpipe.PipelineStage	[38]	INFO	|10:37:44 Setting next inputs [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on stage 975693707, context 554621234 in thread 38 
+bpipe.PipelineStage	[37]	INFO	|10:37:44 Files modified since 1645177064754 in sasc are [commandlog.txt:1645177064752] 
+bpipe.PipelineStage	[38]	INFO	|10:37:44 Files modified since 1645177064754 in sasc_rec are [commandlog.txt:1645177064752] 
+bpipe.OutputMetaData	[37]	INFO	|10:37:44 Context 1108381397 for stage sasc has resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.OutputMetaData	[37]	INFO	|10:37:44 Saving output file details to file .bpipe/outputs/sasc.data_exp1_sim_10_scs.sasc.mlt.gv.properties for command <produce> 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Adding file data/exp1/sim_10_scs.sasc.mlt.gv to output graph 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Maxtimestamp for data/exp1/sim_10_scs.sasc.mlt.gv = 1645176576628 
+bpipe.Dependencies	[37]	INFO	|10:37:44 There are 1 output groups 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Subtracting 1 remaining outputs from 1 total outputs 
+bpipe.OutputMetaData	[37]	INFO	|10:37:44 Context 1108381397 for stage sasc has resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.OutputMetaData	[37]	INFO	|10:37:44 Saving output file details to file .bpipe/outputs/sasc.data_exp1_sim_10_scs.sasc.out.txt.properties for command <produce> 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Adding file data/exp1/sim_10_scs.sasc.out.txt to output graph 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Maxtimestamp for data/exp1/sim_10_scs.sasc.out.txt = 1645176576628 
+bpipe.Dependencies	[37]	INFO	|10:37:44 There are 1 output groups 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Subtracting 1 remaining outputs from 1 total outputs 
+bpipe.PipelineStage	[37]	WARNING	|10:37:44 Unable to delete in-progress command file .bpipe/inprogress/37 
+bpipe.Dependencies	[37]	INFO	|10:37:44 Checking 2 output (s)  
+bpipe.OutputMetaData	[38]	INFO	|10:37:44 Context 554621234 for stage sasc_rec has resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.OutputMetaData	[38]	INFO	|10:37:44 Saving output file details to file .bpipe/outputs/sasc_rec.data_exp1_sim_10_scs.sasc_rec.mlt.gv.properties for command <produce> 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Adding file data/exp1/sim_10_scs.sasc_rec.mlt.gv to output graph 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Maxtimestamp for data/exp1/sim_10_scs.sasc_rec.mlt.gv = 1645176576628 
+bpipe.Dependencies	[38]	INFO	|10:37:44 There are 1 output groups 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Subtracting 1 remaining outputs from 1 total outputs 
+bpipe.OutputMetaData	[38]	INFO	|10:37:44 Context 554621234 for stage sasc_rec has resolved inputs [data/exp1/sim_10_scs.txt] 
+bpipe.OutputMetaData	[38]	INFO	|10:37:44 Saving output file details to file .bpipe/outputs/sasc_rec.data_exp1_sim_10_scs.sasc_rec.out.txt.properties for command <produce> 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Adding file data/exp1/sim_10_scs.sasc_rec.out.txt to output graph 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Maxtimestamp for data/exp1/sim_10_scs.sasc_rec.out.txt = 1645176576628 
+bpipe.Dependencies	[38]	INFO	|10:37:44 There are 1 output groups 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Subtracting 1 remaining outputs from 1 total outputs 
+bpipe.PipelineFile	[37]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.sasc.mlt.gv in storage bpipe.storage.LocalFileSystemStorageLayer@46092f6d 
+bpipe.PipelineStage	[38]	WARNING	|10:37:44 Unable to delete in-progress command file .bpipe/inprogress/38 
+bpipe.PipelineFile	[37]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.sasc.out.txt in storage bpipe.storage.LocalFileSystemStorageLayer@46092f6d 
+bpipe.Dependencies	[38]	INFO	|10:37:44 Checking 2 output (s)  
+bpipe.Pipeline	[37]	INFO	|10:37:44 Pipeline segment 10.1 in thread 37 has finished normally 
+bpipe.PipelineFile	[38]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.sasc_rec.mlt.gv in storage bpipe.storage.LocalFileSystemStorageLayer@46092f6d 
+bpipe.Pipeline	[37]	INFO	|10:37:44 Finished running segment in thread 37 for inputs [data/exp1/sim_10_scs.txt] 
+bpipe.PipelineFile	[38]	INFO	|10:37:44 Checking file data/exp1/sim_10_scs.sasc_rec.out.txt in storage bpipe.storage.LocalFileSystemStorageLayer@46092f6d 
+bpipe.Pipeline	[38]	INFO	|10:37:44 Pipeline segment 10.2 in thread 38 has finished normally 
+bpipe.Concurrency	[37]	INFO	|10:37:44 Unregister resource requestor bpipe.Pipeline@aa10649 
+bpipe.Pipeline	[38]	INFO	|10:37:44 Finished running segment in thread 38 for inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Concurrency	[38]	INFO	|10:37:44 Unregister resource requestor bpipe.Pipeline@6b3871d6 
+bpipe.Concurrency	[37]	INFO	|10:37:44 Decremented running count to 1 in thread 37 
+bpipe.Concurrency	[38]	INFO	|10:37:44 Decremented running count to 0 in thread 38 
+PipelineCategory	[1]	INFO	|10:37:45 Parent pipeline of concurent sections [178325065, 1798861270] is 1366629983 
+PipelineCategory	[1]	INFO	|10:37:45 Maximum child stage list length = 1 
+PipelineCategory	[1]	INFO	|10:37:45 ###### Merging results of parallel split in parent branch  ##### 
+PipelineCategory	[1]	INFO	|10:37:45 Grouping stages at index 0 [sasc, sasc_rec] for merging 
+PipelineCategory	[1]	INFO	|10:37:45 Merged outputs for sasc(s) are [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Setting output [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] on context 145105559 in thread 1 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Actual output set: [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt] 
+PipelineCategory	[1]	INFO	|10:37:45 Merged outputs for sasc_rec(s) are [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Setting output [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on context 1638471954 in thread 1 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Actual output set: [data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+PipelineCategory	[1]	INFO	|10:37:45 There are 1 stages from nested pipelines 
+PipelineCategory	[1]	INFO	|10:37:45 There are [[id:0, stageName:sasc, startMs:1645177064754, endMs:1645177064914, branch:10.1, threadId:37, succeeded:true], [id:0, stageName:sasc_rec, startMs:1645177064754, endMs:1645177064914, branch:10.2, threadId:38, succeeded:true]] parallel paths in final stage 
+PipelineCategory	[1]	INFO	|10:37:45 Last merged outputs are [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt, data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Setting output [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt, data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on context 142103421 in thread 1 
+bpipe.PipelineContext	[1]	INFO	|10:37:45 Actual output set: [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt, data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] 
+PipelineCategory	[1]	INFO	|10:37:45 Merged stage name is sasc_sasc_rec_bpipe_merge 
+bpipe.PipelineStage	[1]	INFO	|10:37:45 Inputs are NOT being inferred from context.output (context.nextInputs=[data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt, data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt]) 
+bpipe.PipelineStage	[1]	INFO	|10:37:45 No explicit output on stage 248495761 context 1566099239 
+bpipe.PipelineStage	[1]	INFO	|10:37:45 Setting next inputs [data/exp1/sim_10_scs.sasc.mlt.gv, data/exp1/sim_10_scs.sasc.out.txt, data/exp1/sim_10_scs.sasc_rec.mlt.gv, data/exp1/sim_10_scs.sasc_rec.out.txt] on stage 248495761, context 1566099239 in thread 1 
+bpipe.PipelineStage	[1]	INFO	|10:37:45 Files modified since 0 in Unknown are [README.md:1645176576624, .gitmodules:1645176576624, bpipe.pipe:1645176576624, exp1_L0_R3_rUNI.config:1645176576784, exp1.params.bpipe.txt:1645176576784, commandlog.txt:1645177064752] 
+bpipe.Dependencies	[1]	INFO	|10:37:45 output files to check are null, skipping. 
+bpipe.Pipeline	[1]	INFO	|10:37:45 Pipeline segment  in thread 1 has finished normally 
+bpipe.Pipeline	[1]	INFO	|10:37:45 Finished running segment in thread 1 for inputs [data/exp1/sim_10_scs.txt] 
+bpipe.Concurrency	[1]	INFO	|10:37:45 Unregister resource requestor bpipe.Pipeline@51751e5f 
+bpipe.Pipeline	[1]	INFO	|10:37:45 Sending FINISHED event for Fri Feb 18 10:37:44 CET 2022 - Fri Feb 18 10:37:45 CET 2022 
+bpipe.Pipeline	[1]	INFO	|10:37:45 Saved pipeline state in 14ms 
+bpipe.OutputMetaData	[41]	INFO	|10:37:45 Reading property file .bpipe/outputs/sasc_rec.data_exp1_sim_10_scs.sasc_rec.mlt.gv.properties 
+bpipe.OutputMetaData	[43]	INFO	|10:37:45 Reading property file .bpipe/outputs/sasc.data_exp1_sim_10_scs.sasc.out.txt.properties 
+bpipe.OutputMetaData	[44]	INFO	|10:37:45 Reading property file .bpipe/outputs/sasc.data_exp1_sim_10_scs.sasc.mlt.gv.properties 
+bpipe.OutputMetaData	[42]	INFO	|10:37:45 Reading property file .bpipe/outputs/sasc_rec.data_exp1_sim_10_scs.sasc_rec.out.txt.properties 
+bpipe.Utils	[1]	INFO	|10:37:45 Output folder scan (concurrency=5) executed in 0.021 seconds 
+bpipe.Dependencies	[1]	INFO	|10:37:45 There are 1 output groups 
+bpipe.Dependencies	[1]	INFO	|10:37:45 Subtracting 4 remaining outputs from 4 total outputs 
+bpipe.Dependencies	[1]	INFO	|10:37:45  data/exp1/sim_10_scs.sasc_rec.mlt.gv / entry 2008907751  
+bpipe.Dependencies	[1]	INFO	|10:37:45  data/exp1/sim_10_scs.sasc.out.txt / entry 2008907751  
+bpipe.Dependencies	[1]	INFO	|10:37:45  data/exp1/sim_10_scs.sasc_rec.out.txt / entry 2008907751  
+bpipe.Dependencies	[1]	INFO	|10:37:45  data/exp1/sim_10_scs.sasc.mlt.gv / entry 2008907751  
+bpipe.Utils	[1]	INFO	|10:37:45 Index output graph executed in 0 
+bpipe.Utils	[1]	INFO	|10:37:45 Save output graph executed in 0.017 seconds 
+bpipe.Pipeline	[1]	INFO	|10:37:45 Outputs are: 
+		data/exp1/sim_10_scs.sasc_rec.mlt.gv
+		data/exp1/sim_10_scs.sasc.out.txt
+		data/exp1/sim_10_scs.sasc_rec.out.txt
+		data/exp1/sim_10_scs.sasc.mlt.gv 
+bpipe.ExecutorPool	[1]	INFO	|10:37:45 Shutting down 0 preallocation pools 
+bpipe.NotificationManager	[1]	INFO	|10:37:45 Channel file does not support close 
+bpipe.ExecutorPool	[27]	INFO	|10:37:45 Shutting down 0 preallocation pools 
+bpipe.Runner	[27]	INFO	|10:37:45 Deleting job file /home/ciccolella/.bpipedb/jobs/17211 

@@ -50,6 +50,25 @@ m_file_formats = [
     '%s/sim_%d_scs_out.txt', #SPHYR
 ]
 
+def get_filepaths(args):
+    ground_dir = args.ground
+    tools_dirs = args.tools
+
+    ground_trees = list()
+    tools_trees = list()
+    for t in tools_dirs:
+        tools_trees.append([])
+
+    for sim_id in range(1, args.simulations + 1):
+        ground_file = '%s/sim_%d_truetree.gv' % (ground_dir, sim_id)
+        ground_trees.append(ground_file)
+
+        for idx, tool_dir in enumerate(tools_dirs):
+            tool_file = t_file_formats[idx] % (tool_dir, sim_id)
+            tools_trees[idx].append(tool_file)
+
+    return [ground_trees, tools_trees]
+
 def load_trees(args):
     ground_dir = args.ground
     tools_dirs = args.tools
@@ -106,29 +125,34 @@ if __name__ == '__main__':
     print('Loading files')
     ground_trees, tools_trees = load_trees(args)
     ground_mat, noisy_mat, tools_mat = load_matrices(args)
+    ground_tfiles, tools_tfiles = get_filepaths(args)
+    
 
     print('='*50)
     print('Computing tree accuracies')
-    plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
-        args.mutations, args.simulations, args.exp, args.outdir)
+    # plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
+    #     args.mutations, args.simulations, args.exp, args.outdir)
 
-    print('='*50)
-    print('Computing FN learn accuracy')
-    plot_alpha_learn.plot_alpha_learn(ground_mat, noisy_mat, tools_mat, args.names,
-        args.mutations, args.simulations, args.exp, args.outdir)
+    # print('='*50)
+    # print('Computing FN learn accuracy')
+    # plot_alpha_learn.plot_alpha_learn(ground_mat, noisy_mat, tools_mat, args.names,
+    #     args.mutations, args.simulations, args.exp, args.outdir)
 
-    print('='*50)
-    print('Computing MLTED')
-    plot_mlted.plot_mlted(ground_trees, tools_trees, args.names, 
-        args.mutations, args.simulations, args.exp, args.outdir)
+    # print('='*50)
+    # print('Computing MLTED')
+    # plot_mlted.plot_mlted(ground_trees, tools_trees, args.names, 
+    #     args.mutations, args.simulations, args.exp, args.outdir)
     
-    print('='*50)
-    print('Computing MSE')
-    plot_alpha_mse.plot_alpha_mse(ground_mat, noisy_mat, tools_mat, args.names,
-        args.mutations, args.simulations, args.exp, args.outdir)
+    # print('='*50)
+    # print('Computing MSE')
+    # plot_alpha_mse.plot_alpha_mse(ground_mat, noisy_mat, tools_mat, args.names,
+    #     args.mutations, args.simulations, args.exp, args.outdir)
 
-    print('='*50)
-    print('Computing pscores')
-    plot_pscore.plot_pscore(ground_mat, noisy_mat, tools_mat, args.names,
-        args.mutations, args.simulations, args.exp, args.outdir, 
-        drop=['SiFit'])
+    # print('='*50)
+    # print('Computing pscores')
+    # plot_pscore.plot_pscore(ground_mat, noisy_mat, tools_mat, args.names,
+    #     args.mutations, args.simulations, args.exp, args.outdir, 
+    #     drop=['SiFit'])
+
+    print('cacca')
+    print(ground_tfiles, tools_tfiles)

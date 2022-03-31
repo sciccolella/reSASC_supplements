@@ -5,3 +5,5 @@
 -p FPRATE=0.00001
 -p MAXL=0
 -p MAXR=3
+-p SASC_G=1
+-p SASC_Q=1

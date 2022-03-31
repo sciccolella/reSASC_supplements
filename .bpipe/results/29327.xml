@@ -1,0 +1,17 @@
+<job id='29327'>
+  <succeeded>true</succeeded>
+  <startDateTime>2022-02-21 11:42:46</startDateTime>
+  <endDateTime>2022-02-21 11:42:55</endDateTime>
+  <totalCommandTimeSeconds>5.822</totalCommandTimeSeconds>
+  <commands>
+    <command>
+      <id>1777</id>
+      <stage>plot</stage>
+      <branch></branch>
+      <content>python comparison/plotting/make.py              --tground data/exp1/*_truetree.gv              --tloaders sasc sasc              --ttools data/exp1/*.sasc_rec.mlt.gv              --ttools data/exp1/*.sasc.mlt.gv              --names "reSASC" SASC             --mgroundT data/exp1/sim_*_truescs.txt              --mgroundN data/exp1/sim_*_scs.txt              --mtools data/exp1/*.sasc_rec.out.txt              --mtools data/exp1/*.sasc.out.txt              --exp exp1 -o test</content>
+      <start>2022-02-21 11:42:48</start>
+      <end>2022-02-21 11:42:54</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

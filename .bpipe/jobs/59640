@@ -1,0 +1,3 @@
+/home/ciccolella/bpipe-0.9.11/bin//bpipe run -n 32 @exp2.params.bpipe.txt bpipe.pipe data/exp2/sim_10_log.txt data/exp2/sim_10_scs.txt data/exp2/sim_10_truescs.txt data/exp2/sim_10_truetree.gv
+-----------------------
+pguid: ad8bba095cebf0fd196fde147f07b5f0a5f85855

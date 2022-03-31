@@ -5,6 +5,7 @@ from natsort import natsorted
 import plot_accuracy
 
 import measures, loader
+import mp3, recurrent, loss, loglikelihood
 
 parser = argparse.ArgumentParser(description='plot figures', add_help=True)
 parser.add_argument('--tground', action='store', type=str, nargs='+', required=True,
@@ -38,6 +39,23 @@ file_loaders = {
     'sphyr': loader.load_from_sphyr
 }
 
+def get_filepaths(args):
+    ground_files = natsorted(args.tground)
+    tools_files = args.ttools
+
+    ground_trees = list()
+    tools_trees = [[] for _ in range(len(tools_files))]
+
+    for f in ground_files:
+        ground_trees.append(f)
+
+    for t_ix, t_files in enumerate(tools_files):
+        for f in natsorted(t_files):
+            tools_trees[t_ix].append(
+                f
+            )
+
+    return ground_trees, tools_trees
 
 def load_trees(args):
     ground_files = natsorted(args.tground)
@@ -104,14 +122,30 @@ if __name__ == "__main__":
     print('Loading files')
     ground_trees, tools_trees = load_trees(args)
     true_mat, noisy_mat, tools_mat = load_matrices(args)
+    ground_tfiles, tools_tfiles = get_filepaths(args)
 
     mutations = true_mat[0].shape[1]
 
-    print('='*50)
-    print('Computing tree accuracies')
-    plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
-        mutations, simulations, args.exp, args.outdir)
+    # print('='*50)
+    # print('Computing tree accuracies')
+    # plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
+    #     mutations, simulations, args.exp, args.outdir)
     
+    # print('='*50)
+    # print('Computing MP3')
+    # mp3.plot_mp3(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+
+    # print('='*50)
+    # print('Computing Recurrents')
+    # recurrent.recurrent_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+
+    # print('='*50)
+    # print('Computing Losses')
+    # loss.loss_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+
+    print('='*50)
+    print('Computing Log-lh')
+    loglikelihood.ll(ground_tfiles, true_mat, noisy_mat, tools_tfiles, args.names, args.exp, args.outdir)
 
 '''
 python comparison/plotting/make.py  \
@@ -125,4 +159,60 @@ python comparison/plotting/make.py  \
 --mtools results/sasc/exp1/sim_*_scs_out.txt  \
 --mtools results/sasc/exp1/sim_*_scs_out.txt  \
 --exp exp1 -o test
+'''
+
+'''
+python comparison/plotting/make.py  \
+--tground data/exp2/sim_*_truetree.gv  \
+--tloaders sasc sasc  \
+--ttools data/exp2/sim_*_scs.sasc_rec.mlt.gv  \
+--ttools data/exp2/sim_*_scs.sasc.mlt.gv  \
+--names reSASC SASC \
+--mgroundT data/exp2/sim_*_truescs.txt  \
+--mgroundN data/exp2/sim_*_scs.txt  \
+--mtools data/exp2/sim_*_scs.sasc_rec.out.txt  \
+--mtools data/exp2/sim_*_scs.sasc.out.txt  \
+--exp exp2 -o test
+'''
+
+'''
+python comparison/plotting/make.py  \
+--tground data/exp3/sim_*_truetree.gv  \
+--tloaders sasc sasc  \
+--ttools data/exp3/sim_*_scs.sasc_rec.mlt.gv  \
+--ttools data/exp3/sim_*_scs.sasc.mlt.gv  \
+--names reSASC SASC \
+--mgroundT data/exp3/sim_*_truescs.txt  \
+--mgroundN data/exp3/sim_*_scs.txt  \
+--mtools data/exp3/sim_*_scs.sasc_rec.out.txt  \
+--mtools data/exp3/sim_*_scs.sasc.out.txt  \
+--exp exp3 -o test
+'''
+
+'''
+python comparison/plotting/make.py  \
+--tground data/exp4/sim_*_truetree.gv  \
+--tloaders sasc sasc  \
+--ttools data/exp4/sim_*_scs.sasc_rec.mlt.gv  \
+--ttools data/exp4/sim_*_scs.sasc.mlt.gv  \
+--names reSASC SASC \
+--mgroundT data/exp4/sim_*_truescs.txt  \
+--mgroundN data/exp4/sim_*_scs.txt  \
+--mtools data/exp4/sim_*_scs.sasc_rec.out.txt  \
+--mtools data/exp4/sim_*_scs.sasc.out.txt  \
+--exp exp4 -o test
+'''
+
+'''
+python comparison/plotting/make.py  \
+--tground data/exp5/sim_*_truetree.gv  \
+--tloaders sasc sasc  \
+--ttools data/exp5/sim_*_scs.sasc_rec.mlt.gv  \
+--ttools data/exp5/sim_*_scs.sasc.mlt.gv  \
+--names reSASC SASC \
+--mgroundT data/exp5/sim_*_truescs.txt  \
+--mgroundN data/exp5/sim_*_scs.txt  \
+--mtools data/exp5/sim_*_scs.sasc_rec.out.txt  \
+--mtools data/exp5/sim_*_scs.sasc.out.txt  \
+--exp exp5 -o test
 '''

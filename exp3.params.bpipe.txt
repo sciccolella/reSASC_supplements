@@ -1,0 +1,9 @@
+-p EXPDIR=exp2
+-p TOTCELLS=250
+-p TOTMUTS=50
+-p FNRATE=0.15
+-p FPRATE=0.00001
+-p MAXL=0
+-p MAXR=5
+-p SASC_G=1
+-p SASC_Q=bimodal.q

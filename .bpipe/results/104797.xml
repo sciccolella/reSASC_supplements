@@ -1,0 +1,917 @@
+<job id='104797'>
+  <succeeded>true</succeeded>
+  <startDateTime>2022-03-05 19:18:20</startDateTime>
+  <endDateTime>2022-03-06 04:44:49</endDateTime>
+  <totalCommandTimeSeconds>117045.87</totalCommandTimeSeconds>
+  <commands>
+    <command>
+      <id>6354</id>
+      <stage>sasc_rec</stage>
+      <branch>16.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_16_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_16_scs.sasc_rec</content>
+      <start>2022-03-05 19:18:22</start>
+      <end>2022-03-05 19:34:27</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6355</id>
+      <stage>sasc</stage>
+      <branch>6.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_6_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_6_scs.sasc</content>
+      <start>2022-03-05 19:18:22</start>
+      <end>2022-03-05 19:38:34</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6377</id>
+      <stage>sasc_rec</stage>
+      <branch>10.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_10_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_10_scs.sasc_rec</content>
+      <start>2022-03-05 19:18:22</start>
+      <end>2022-03-05 19:31:15</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6363</id>
+      <stage>sasc</stage>
+      <branch>22.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_22_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_22_scs.sasc</content>
+      <start>2022-03-05 19:18:22</start>
+      <end>2022-03-05 19:41:04</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6364</id>
+      <stage>sasc</stage>
+      <branch>36.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_36_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_36_scs.sasc</content>
+      <start>2022-03-05 19:31:15</start>
+      <end>2022-03-05 19:54:25</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6368</id>
+      <stage>sasc</stage>
+      <branch>4.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_4_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_4_scs.sasc</content>
+      <start>2022-03-05 19:34:27</start>
+      <end>2022-03-05 19:54:52</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6389</id>
+      <stage>sasc_rec</stage>
+      <branch>22.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_22_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_22_scs.sasc_rec</content>
+      <start>2022-03-05 19:38:34</start>
+      <end>2022-03-05 19:50:45</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6385</id>
+      <stage>sasc</stage>
+      <branch>19.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_19_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_19_scs.sasc</content>
+      <start>2022-03-05 19:41:04</start>
+      <end>2022-03-05 20:03:30</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6375</id>
+      <stage>sasc</stage>
+      <branch>10.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_10_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_10_scs.sasc</content>
+      <start>2022-03-05 19:50:45</start>
+      <end>2022-03-05 20:17:09</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6376</id>
+      <stage>sasc</stage>
+      <branch>47.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_47_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_47_scs.sasc</content>
+      <start>2022-03-05 19:54:25</start>
+      <end>2022-03-05 20:15:43</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6367</id>
+      <stage>sasc</stage>
+      <branch>32.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_32_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_32_scs.sasc</content>
+      <start>2022-03-05 19:54:52</start>
+      <end>2022-03-05 20:18:38</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6366</id>
+      <stage>sasc</stage>
+      <branch>1.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_1_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_1_scs.sasc</content>
+      <start>2022-03-05 20:03:30</start>
+      <end>2022-03-05 20:29:27</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6361</id>
+      <stage>sasc</stage>
+      <branch>21.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_21_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_21_scs.sasc</content>
+      <start>2022-03-05 20:15:43</start>
+      <end>2022-03-05 20:43:35</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6379</id>
+      <stage>sasc</stage>
+      <branch>11.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_11_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_11_scs.sasc</content>
+      <start>2022-03-05 20:17:09</start>
+      <end>2022-03-05 20:38:06</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6386</id>
+      <stage>sasc</stage>
+      <branch>24.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_24_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_24_scs.sasc</content>
+      <start>2022-03-05 20:18:38</start>
+      <end>2022-03-05 20:38:30</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6357</id>
+      <stage>sasc</stage>
+      <branch>17.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_17_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_17_scs.sasc</content>
+      <start>2022-03-05 20:29:27</start>
+      <end>2022-03-05 20:46:52</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6362</id>
+      <stage>sasc</stage>
+      <branch>50.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_50_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_50_scs.sasc</content>
+      <start>2022-03-05 20:38:06</start>
+      <end>2022-03-05 21:06:20</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6358</id>
+      <stage>sasc_rec</stage>
+      <branch>18.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_18_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_18_scs.sasc_rec</content>
+      <start>2022-03-05 20:38:30</start>
+      <end>2022-03-05 20:54:18</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6390</id>
+      <stage>sasc</stage>
+      <branch>29.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_29_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_29_scs.sasc</content>
+      <start>2022-03-05 20:43:35</start>
+      <end>2022-03-05 21:08:34</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6388</id>
+      <stage>sasc</stage>
+      <branch>20.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_20_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_20_scs.sasc</content>
+      <start>2022-03-05 20:46:52</start>
+      <end>2022-03-05 21:05:27</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6372</id>
+      <stage>sasc</stage>
+      <branch>49.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_49_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_49_scs.sasc</content>
+      <start>2022-03-05 20:54:18</start>
+      <end>2022-03-05 21:18:51</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6380</id>
+      <stage>sasc_rec</stage>
+      <branch>17.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_17_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_17_scs.sasc_rec</content>
+      <start>2022-03-05 21:05:27</start>
+      <end>2022-03-05 21:17:25</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6383</id>
+      <stage>sasc</stage>
+      <branch>9.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_9_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_9_scs.sasc</content>
+      <start>2022-03-05 21:06:20</start>
+      <end>2022-03-05 21:27:49</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6371</id>
+      <stage>sasc_rec</stage>
+      <branch>14.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_14_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_14_scs.sasc_rec</content>
+      <start>2022-03-05 21:08:34</start>
+      <end>2022-03-05 21:21:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6399</id>
+      <stage>sasc_rec</stage>
+      <branch>1.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_1_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_1_scs.sasc_rec</content>
+      <start>2022-03-05 21:17:25</start>
+      <end>2022-03-05 21:29:50</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6398</id>
+      <stage>sasc_rec</stage>
+      <branch>19.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_19_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_19_scs.sasc_rec</content>
+      <start>2022-03-05 21:18:51</start>
+      <end>2022-03-05 21:31:05</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6403</id>
+      <stage>sasc</stage>
+      <branch>28.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_28_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_28_scs.sasc</content>
+      <start>2022-03-05 21:21:00</start>
+      <end>2022-03-05 21:38:51</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6392</id>
+      <stage>sasc</stage>
+      <branch>14.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_14_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_14_scs.sasc</content>
+      <start>2022-03-05 21:27:49</start>
+      <end>2022-03-05 21:56:14</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6384</id>
+      <stage>sasc_rec</stage>
+      <branch>15.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_15_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_15_scs.sasc_rec</content>
+      <start>2022-03-05 21:29:50</start>
+      <end>2022-03-05 21:41:58</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6400</id>
+      <stage>sasc</stage>
+      <branch>39.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_39_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_39_scs.sasc</content>
+      <start>2022-03-05 21:31:05</start>
+      <end>2022-03-05 21:52:21</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6394</id>
+      <stage>sasc_rec</stage>
+      <branch>21.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_21_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_21_scs.sasc_rec</content>
+      <start>2022-03-05 21:38:51</start>
+      <end>2022-03-05 21:57:56</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6373</id>
+      <stage>sasc</stage>
+      <branch>2.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_2_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_2_scs.sasc</content>
+      <start>2022-03-05 21:41:58</start>
+      <end>2022-03-05 22:01:11</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6391</id>
+      <stage>sasc</stage>
+      <branch>37.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_37_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_37_scs.sasc</content>
+      <start>2022-03-05 21:52:21</start>
+      <end>2022-03-05 22:11:40</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6369</id>
+      <stage>sasc_rec</stage>
+      <branch>20.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_20_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_20_scs.sasc_rec</content>
+      <start>2022-03-05 21:56:14</start>
+      <end>2022-03-05 22:29:31</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6406</id>
+      <stage>sasc</stage>
+      <branch>7.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_7_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_7_scs.sasc</content>
+      <start>2022-03-05 21:57:56</start>
+      <end>2022-03-05 22:18:56</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6404</id>
+      <stage>sasc</stage>
+      <branch>15.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_15_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_15_scs.sasc</content>
+      <start>2022-03-05 22:01:11</start>
+      <end>2022-03-05 22:22:43</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6397</id>
+      <stage>sasc_rec</stage>
+      <branch>12.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_12_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_12_scs.sasc_rec</content>
+      <start>2022-03-05 22:11:40</start>
+      <end>2022-03-05 22:22:04</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6396</id>
+      <stage>sasc</stage>
+      <branch>12.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_12_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_12_scs.sasc</content>
+      <start>2022-03-05 22:18:56</start>
+      <end>2022-03-05 22:41:43</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6395</id>
+      <stage>sasc</stage>
+      <branch>40.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_40_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_40_scs.sasc</content>
+      <start>2022-03-05 22:22:04</start>
+      <end>2022-03-05 22:41:36</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6393</id>
+      <stage>sasc</stage>
+      <branch>41.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_41_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_41_scs.sasc</content>
+      <start>2022-03-05 22:22:43</start>
+      <end>2022-03-05 22:41:46</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6409</id>
+      <stage>sasc</stage>
+      <branch>23.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_23_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_23_scs.sasc</content>
+      <start>2022-03-05 22:29:31</start>
+      <end>2022-03-05 22:48:02</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6408</id>
+      <stage>sasc</stage>
+      <branch>46.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_46_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_46_scs.sasc</content>
+      <start>2022-03-05 22:41:36</start>
+      <end>2022-03-05 23:10:09</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6405</id>
+      <stage>sasc_rec</stage>
+      <branch>13.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_13_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_13_scs.sasc_rec</content>
+      <start>2022-03-05 22:41:43</start>
+      <end>2022-03-05 22:53:32</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6412</id>
+      <stage>sasc</stage>
+      <branch>27.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_27_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_27_scs.sasc</content>
+      <start>2022-03-05 22:41:46</start>
+      <end>2022-03-05 23:01:30</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6411</id>
+      <stage>sasc</stage>
+      <branch>48.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_48_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_48_scs.sasc</content>
+      <start>2022-03-05 22:48:02</start>
+      <end>2022-03-05 23:08:19</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6416</id>
+      <stage>sasc</stage>
+      <branch>31.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_31_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_31_scs.sasc</content>
+      <start>2022-03-05 22:53:32</start>
+      <end>2022-03-05 23:12:25</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6418</id>
+      <stage>sasc</stage>
+      <branch>43.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_43_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_43_scs.sasc</content>
+      <start>2022-03-05 23:01:30</start>
+      <end>2022-03-05 23:24:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6422</id>
+      <stage>sasc</stage>
+      <branch>44.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_44_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_44_scs.sasc</content>
+      <start>2022-03-05 23:08:19</start>
+      <end>2022-03-05 23:29:22</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6421</id>
+      <stage>sasc</stage>
+      <branch>45.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_45_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_45_scs.sasc</content>
+      <start>2022-03-05 23:10:09</start>
+      <end>2022-03-05 23:30:25</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6424</id>
+      <stage>sasc</stage>
+      <branch>30.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_30_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_30_scs.sasc</content>
+      <start>2022-03-05 23:12:25</start>
+      <end>2022-03-05 23:35:22</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6423</id>
+      <stage>sasc</stage>
+      <branch>42.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_42_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_42_scs.sasc</content>
+      <start>2022-03-05 23:24:00</start>
+      <end>2022-03-05 23:46:43</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6425</id>
+      <stage>sasc</stage>
+      <branch>25.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_25_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_25_scs.sasc</content>
+      <start>2022-03-05 23:29:22</start>
+      <end>2022-03-05 23:54:34</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6426</id>
+      <stage>sasc</stage>
+      <branch>26.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_26_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_26_scs.sasc</content>
+      <start>2022-03-05 23:30:25</start>
+      <end>2022-03-05 23:48:24</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6427</id>
+      <stage>sasc</stage>
+      <branch>33.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_33_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_33_scs.sasc</content>
+      <start>2022-03-05 23:35:22</start>
+      <end>2022-03-05 23:56:55</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6428</id>
+      <stage>sasc</stage>
+      <branch>35.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_35_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_35_scs.sasc</content>
+      <start>2022-03-05 23:46:43</start>
+      <end>2022-03-06 00:07:41</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6429</id>
+      <stage>sasc</stage>
+      <branch>3.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_3_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_3_scs.sasc</content>
+      <start>2022-03-05 23:48:24</start>
+      <end>2022-03-06 00:08:14</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6430</id>
+      <stage>sasc</stage>
+      <branch>34.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_34_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_34_scs.sasc</content>
+      <start>2022-03-05 23:54:34</start>
+      <end>2022-03-06 00:20:25</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6370</id>
+      <stage>sasc</stage>
+      <branch>13.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_13_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_13_scs.sasc</content>
+      <start>2022-03-05 23:56:55</start>
+      <end>2022-03-06 00:16:52</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6374</id>
+      <stage>sasc</stage>
+      <branch>8.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_8_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_8_scs.sasc</content>
+      <start>2022-03-06 00:07:41</start>
+      <end>2022-03-06 00:28:54</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6378</id>
+      <stage>sasc</stage>
+      <branch>5.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_5_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_5_scs.sasc</content>
+      <start>2022-03-06 00:08:14</start>
+      <end>2022-03-06 00:32:05</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6382</id>
+      <stage>sasc</stage>
+      <branch>16.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_16_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_16_scs.sasc</content>
+      <start>2022-03-06 00:16:52</start>
+      <end>2022-03-06 00:39:22</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6356</id>
+      <stage>sasc</stage>
+      <branch>18.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_18_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_18_scs.sasc</content>
+      <start>2022-03-06 00:20:25</start>
+      <end>2022-03-06 00:43:47</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6387</id>
+      <stage>sasc</stage>
+      <branch>38.1</branch>
+      <content>tools/sasc/sasc -i data/exp5/sim_38_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -r 10 -p 8 -x -S 100000.0 -C 0.001 -g bimodal.g -P data/exp5/sim_38_scs.sasc</content>
+      <start>2022-03-06 00:28:54</start>
+      <end>2022-03-06 00:49:09</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6359</id>
+      <stage>sasc_rec</stage>
+      <branch>11.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_11_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_11_scs.sasc_rec</content>
+      <start>2022-03-06 00:32:05</start>
+      <end>2022-03-06 00:44:30</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6433</id>
+      <stage>sasc_rec</stage>
+      <branch>23.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_23_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_23_scs.sasc_rec</content>
+      <start>2022-03-06 00:39:22</start>
+      <end>2022-03-06 00:51:37</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6436</id>
+      <stage>sasc_rec</stage>
+      <branch>24.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_24_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_24_scs.sasc_rec</content>
+      <start>2022-03-06 00:43:47</start>
+      <end>2022-03-06 01:05:49</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6439</id>
+      <stage>sasc_rec</stage>
+      <branch>25.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_25_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_25_scs.sasc_rec</content>
+      <start>2022-03-06 00:44:30</start>
+      <end>2022-03-06 00:58:44</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6442</id>
+      <stage>sasc_rec</stage>
+      <branch>26.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_26_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_26_scs.sasc_rec</content>
+      <start>2022-03-06 00:49:10</start>
+      <end>2022-03-06 01:00:10</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6445</id>
+      <stage>sasc_rec</stage>
+      <branch>27.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_27_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_27_scs.sasc_rec</content>
+      <start>2022-03-06 00:51:37</start>
+      <end>2022-03-06 01:01:59</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6448</id>
+      <stage>sasc_rec</stage>
+      <branch>28.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_28_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_28_scs.sasc_rec</content>
+      <start>2022-03-06 00:58:44</start>
+      <end>2022-03-06 01:09:24</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6451</id>
+      <stage>sasc_rec</stage>
+      <branch>29.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_29_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_29_scs.sasc_rec</content>
+      <start>2022-03-06 01:00:10</start>
+      <end>2022-03-06 01:13:52</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6454</id>
+      <stage>sasc_rec</stage>
+      <branch>2.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_2_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_2_scs.sasc_rec</content>
+      <start>2022-03-06 01:01:59</start>
+      <end>2022-03-06 01:13:41</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6457</id>
+      <stage>sasc_rec</stage>
+      <branch>30.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_30_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_30_scs.sasc_rec</content>
+      <start>2022-03-06 01:05:49</start>
+      <end>2022-03-06 01:18:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6460</id>
+      <stage>sasc_rec</stage>
+      <branch>31.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_31_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_31_scs.sasc_rec</content>
+      <start>2022-03-06 01:09:24</start>
+      <end>2022-03-06 01:21:39</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6463</id>
+      <stage>sasc_rec</stage>
+      <branch>32.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_32_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_32_scs.sasc_rec</content>
+      <start>2022-03-06 01:13:41</start>
+      <end>2022-03-06 01:24:52</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6466</id>
+      <stage>sasc_rec</stage>
+      <branch>33.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_33_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_33_scs.sasc_rec</content>
+      <start>2022-03-06 01:13:52</start>
+      <end>2022-03-06 01:26:53</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6469</id>
+      <stage>sasc_rec</stage>
+      <branch>34.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_34_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_34_scs.sasc_rec</content>
+      <start>2022-03-06 01:18:00</start>
+      <end>2022-03-06 01:32:12</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6472</id>
+      <stage>sasc_rec</stage>
+      <branch>35.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_35_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_35_scs.sasc_rec</content>
+      <start>2022-03-06 01:21:40</start>
+      <end>2022-03-06 01:33:46</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6475</id>
+      <stage>sasc_rec</stage>
+      <branch>36.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_36_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_36_scs.sasc_rec</content>
+      <start>2022-03-06 01:24:52</start>
+      <end>2022-03-06 01:38:16</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6478</id>
+      <stage>sasc_rec</stage>
+      <branch>37.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_37_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_37_scs.sasc_rec</content>
+      <start>2022-03-06 01:26:53</start>
+      <end>2022-03-06 01:38:00</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6481</id>
+      <stage>sasc_rec</stage>
+      <branch>38.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_38_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_38_scs.sasc_rec</content>
+      <start>2022-03-06 01:32:12</start>
+      <end>2022-03-06 04:03:36</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6484</id>
+      <stage>sasc_rec</stage>
+      <branch>39.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_39_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_39_scs.sasc_rec</content>
+      <start>2022-03-06 01:33:46</start>
+      <end>2022-03-06 01:44:51</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6487</id>
+      <stage>sasc_rec</stage>
+      <branch>3.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_3_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_3_scs.sasc_rec</content>
+      <start>2022-03-06 01:38:00</start>
+      <end>2022-03-06 01:49:09</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6490</id>
+      <stage>sasc_rec</stage>
+      <branch>40.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_40_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_40_scs.sasc_rec</content>
+      <start>2022-03-06 01:38:16</start>
+      <end>2022-03-06 02:09:37</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6493</id>
+      <stage>sasc_rec</stage>
+      <branch>41.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_41_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_41_scs.sasc_rec</content>
+      <start>2022-03-06 01:44:51</start>
+      <end>2022-03-06 01:57:10</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6496</id>
+      <stage>sasc_rec</stage>
+      <branch>42.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_42_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_42_scs.sasc_rec</content>
+      <start>2022-03-06 01:49:09</start>
+      <end>2022-03-06 02:01:33</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6499</id>
+      <stage>sasc_rec</stage>
+      <branch>43.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_43_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_43_scs.sasc_rec</content>
+      <start>2022-03-06 01:57:10</start>
+      <end>2022-03-06 02:08:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6502</id>
+      <stage>sasc_rec</stage>
+      <branch>44.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_44_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_44_scs.sasc_rec</content>
+      <start>2022-03-06 02:01:33</start>
+      <end>2022-03-06 02:16:49</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6505</id>
+      <stage>sasc_rec</stage>
+      <branch>45.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_45_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_45_scs.sasc_rec</content>
+      <start>2022-03-06 02:08:03</start>
+      <end>2022-03-06 02:18:32</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6508</id>
+      <stage>sasc_rec</stage>
+      <branch>46.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_46_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_46_scs.sasc_rec</content>
+      <start>2022-03-06 02:09:37</start>
+      <end>2022-03-06 02:25:10</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6511</id>
+      <stage>sasc_rec</stage>
+      <branch>47.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_47_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_47_scs.sasc_rec</content>
+      <start>2022-03-06 02:16:49</start>
+      <end>2022-03-06 02:27:28</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6514</id>
+      <stage>sasc_rec</stage>
+      <branch>48.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_48_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_48_scs.sasc_rec</content>
+      <start>2022-03-06 02:18:32</start>
+      <end>2022-03-06 02:34:32</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6517</id>
+      <stage>sasc_rec</stage>
+      <branch>49.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_49_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_49_scs.sasc_rec</content>
+      <start>2022-03-06 02:25:10</start>
+      <end>2022-03-06 02:36:14</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6520</id>
+      <stage>sasc_rec</stage>
+      <branch>4.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_4_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_4_scs.sasc_rec</content>
+      <start>2022-03-06 02:27:28</start>
+      <end>2022-03-06 02:38:03</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6523</id>
+      <stage>sasc_rec</stage>
+      <branch>50.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_50_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_50_scs.sasc_rec</content>
+      <start>2022-03-06 02:34:32</start>
+      <end>2022-03-06 02:48:11</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6526</id>
+      <stage>sasc_rec</stage>
+      <branch>5.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_5_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_5_scs.sasc_rec</content>
+      <start>2022-03-06 02:36:14</start>
+      <end>2022-03-06 02:46:41</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6529</id>
+      <stage>sasc_rec</stage>
+      <branch>6.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_6_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_6_scs.sasc_rec</content>
+      <start>2022-03-06 02:38:03</start>
+      <end>2022-03-06 02:49:10</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6532</id>
+      <stage>sasc_rec</stage>
+      <branch>7.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_7_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_7_scs.sasc_rec</content>
+      <start>2022-03-06 02:46:41</start>
+      <end>2022-03-06 02:57:53</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6535</id>
+      <stage>sasc_rec</stage>
+      <branch>8.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_8_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_8_scs.sasc_rec</content>
+      <start>2022-03-06 02:48:11</start>
+      <end>2022-03-06 03:01:05</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6538</id>
+      <stage>sasc_rec</stage>
+      <branch>9.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp5/sim_9_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 5 -j 5 -r 10 -p 8 -g bimodal.g -q bimodal.q -x -S 100000.0 -C 0.001 -P data/exp5/sim_9_scs.sasc_rec</content>
+      <start>2022-03-06 02:49:10</start>
+      <end>2022-03-06 03:00:31</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>6603</id>
+      <stage>plot</stage>
+      <branch></branch>
+      <content>python comparison/plotting/make.py              --tground data/exp5/*_truetree.gv              --tloaders sasc sasc              --ttools data/exp5/*.sasc_rec.mlt.gv              --ttools data/exp5/*.sasc.mlt.gv              --names "reSASC" SASC             --mgroundT data/exp5/sim_*_truescs.txt              --mgroundN data/exp5/sim_*_scs.txt              --mtools data/exp5/*.sasc_rec.out.txt              --mtools data/exp5/*.sasc.out.txt              --exp exp5 -o test</content>
+      <start>2022-03-06 04:03:38</start>
+      <end>2022-03-06 04:44:48</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/sasc_rec_test/comparison/plotting/make.py", line 124, in <module>
+    ground_tfiles, tools_tfiles = get_filepaths(args)
+  File "/data/sasc_rec_test/comparison/plotting/make.py", line 54, in get_filepaths
+    file_loaders[f]
+KeyError: 'data/exp1/sim_1_scs.sasc_rec.mlt.gv'

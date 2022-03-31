@@ -1,6 +1,11 @@
 SASC_REC="tools/sasc_rec/sasc"
 SASC="tools/sasc/sasc"
-SASC_ITERS=1
+SASC_ITERS = 10
+SASC_S = 100000.0
+SASC_C = 0.001
+
+NUMTHREADS=8
+
 
 sasc_rec = {
     requires TOTCELLS : "number of cells"
@@ -9,10 +14,14 @@ sasc_rec = {
     requires FPRATE : "fp rate"
     requires MAXL : "max losses rate"
     requires MAXR : "max recurrences rate"
+    requires SASC_G : "gamma loss rate"
+    requires SASC_Q : "q recurrent rate"
     produce(input.prefix+".sasc_rec.mlt.gv",input.prefix+".sasc_rec.out.txt") {
-        exec """
-            $SASC_REC -i $input -m $TOTMUTS -n $TOTCELLS -r 1 -b $FPRATE -a $FNRATE -k $MAXL -j $MAXR -r $SASC_ITERS -p $threads -x -P ${input.prefix}.sasc_rec
-        """
+        uses(threads:NUMTHREADS) {
+            exec """
+                $SASC_REC -i $input -m $TOTMUTS -n $TOTCELLS -b $FPRATE -a $FNRATE -k $MAXL -j $MAXR -d $MAXL -c $MAXR -r $SASC_ITERS -p $NUMTHREADS -g $SASC_G -q $SASC_Q -x -S $SASC_S -C $SASC_C -P ${input.prefix}.sasc_rec
+            """
+        }
     }
 }
 
@@ -22,11 +31,14 @@ sasc = {
     requires FNRATE : "fn rate"
     requires FPRATE : "fp rate"
     requires MAXL : "max losses rate"
+    requires SASC_G : "gamma loss rate"
     
     produce(input.prefix+".sasc.mlt.gv",input.prefix+".sasc.out.txt") {
-        exec """
-            $SASC -i $input -m $TOTMUTS -n $TOTCELLS -r 1 -b $FPRATE -a $FNRATE -k $MAXL -r $SASC_ITERS -p $threads -x  -P ${input.prefix}.sasc
-        """
+        uses(threads:NUMTHREADS) {
+            exec """
+                $SASC -i $input -m $TOTMUTS -n $TOTCELLS -b $FPRATE -a $FNRATE -k $MAXL -d $MAXL -r $SASC_ITERS -p $threads -x -S $SASC_S -C $SASC_C -g $SASC_G -P ${input.prefix}.sasc
+            """
+        }
     }
 }
 
@@ -52,5 +64,5 @@ Bpipe.run {
     "sim_%_scs.txt" * [
             sasc,
             sasc_rec
-        ] //+ plot.using(PLOTDIR:"test")
+        ] + plot.using(PLOTDIR:"test")
 }

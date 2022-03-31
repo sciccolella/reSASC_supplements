@@ -1,0 +1,62 @@
+bpipe.Runner	[1]	INFO	|3:01:21 Starting 
+bpipe.Runner	[1]	INFO	|3:01:21 OS: Linux (5.13.0-35-generic) Java: 11.0.14 Vendor: Ubuntu 
+bpipe.Runner	[1]	INFO	|3:01:21 Initializing plugins ... 
+bpipe.Config	[1]	INFO	|3:01:21 No plugins directory found: /data/sasc_rec_test/.bpipe/plugins 
+bpipe.Runner	[1]	INFO	|3:01:21 Stopping running commands 
+bpipe.Runner	[1]	INFO	|3:01:21 Reading user config ...  
+bpipe.Config	[1]	INFO	|3:01:21 No local configuration file found 
+bpipe.Utils	[28]	INFO	|3:01:22 Read config from /home/ciccolella/bpipe-0.9.11/bin/../bpipe.config executed in 0.423 seconds 
+bpipe.Utils	[1]	INFO	|3:01:22 Read user config executed in 0.678 seconds 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Loading command info from /data/sasc_rec_test/.bpipe/commands/7251 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Stopping command LocalCommandExecutor(job=7251, pid=-1, started=Fri Mar 11 14:59:41 CET 2022, exitValue=null) 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Checking for pid file .bpipe/commands/7251.pid for local command 7251 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Read pid=6410 for local command 7251 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Shutting down local job 7251 with pid 6410 
+bpipe.Utils	[1]	INFO	|3:01:22 Executing command: bash -c source /home/ciccolella/bpipe-0.9.11/bin/../bin/bpipe-utils.sh; killtree 6410 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Cleanup command 7251 
+bpipe.ForwardHost	[1]	INFO	|3:01:22 Cancelling and flushing outputs for forwarders: [] 
+bpipe.CommandManager	[1]	WARNING	|3:01:22 Unable to locate command 7251 as an executed command 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Loading command info from /data/sasc_rec_test/.bpipe/commands/7245 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Stopping command LocalCommandExecutor(job=7245, pid=-1, started=Fri Mar 11 14:59:41 CET 2022, exitValue=null) 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Checking for pid file .bpipe/commands/7245.pid for local command 7245 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Read pid=6436 for local command 7245 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Shutting down local job 7245 with pid 6436 
+bpipe.Utils	[1]	INFO	|3:01:22 Executing command: bash -c source /home/ciccolella/bpipe-0.9.11/bin/../bin/bpipe-utils.sh; killtree 6436 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Cleanup command 7245 
+bpipe.ForwardHost	[1]	INFO	|3:01:22 Cancelling and flushing outputs for forwarders: [] 
+bpipe.CommandManager	[1]	WARNING	|3:01:22 Unable to locate command 7245 as an executed command 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Loading command info from /data/sasc_rec_test/.bpipe/commands/7253 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Stopping command LocalCommandExecutor(job=7253, pid=-1, started=Fri Mar 11 14:59:41 CET 2022, exitValue=null) 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Checking for pid file .bpipe/commands/7253.pid for local command 7253 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Read pid=6423 for local command 7253 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Shutting down local job 7253 with pid 6423 
+bpipe.Utils	[1]	INFO	|3:01:22 Executing command: bash -c source /home/ciccolella/bpipe-0.9.11/bin/../bin/bpipe-utils.sh; killtree 6423 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Cleanup command 7253 
+bpipe.ForwardHost	[1]	INFO	|3:01:22 Cancelling and flushing outputs for forwarders: [] 
+bpipe.CommandManager	[1]	WARNING	|3:01:22 Unable to locate command 7253 as an executed command 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Loading command info from /data/sasc_rec_test/.bpipe/commands/7249 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Stopping command LocalCommandExecutor(job=7249, pid=-1, started=Fri Mar 11 14:59:41 CET 2022, exitValue=null) 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Checking for pid file .bpipe/commands/7249.pid for local command 7249 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Read pid=6397 for local command 7249 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Shutting down local job 7249 with pid 6397 
+bpipe.Utils	[1]	INFO	|3:01:22 Executing command: bash -c source /home/ciccolella/bpipe-0.9.11/bin/../bin/bpipe-utils.sh; killtree 6397 
+bpipe.executor.LocalCommandExecutor	[1]	INFO	|3:01:22 Cleanup command 7249 
+bpipe.ForwardHost	[1]	INFO	|3:01:22 Cancelling and flushing outputs for forwarders: [] 
+bpipe.CommandManager	[1]	WARNING	|3:01:22 Unable to locate command 7249 as an executed command 
+bpipe.CommandManager	[1]	INFO	|3:01:22 Successfully stopped 4 commands 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_22_scs.sasc.mlt.gv does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_22_scs.sasc.mlt.gv because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_22_scs.sasc.out.txt does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_22_scs.sasc.out.txt because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_43_scs.sasc.mlt.gv does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_43_scs.sasc.mlt.gv because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_43_scs.sasc.out.txt does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_43_scs.sasc.out.txt because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_50_scs.sasc.mlt.gv does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_50_scs.sasc.mlt.gv because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_50_scs.sasc.out.txt does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_50_scs.sasc.out.txt because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_8_scs.sasc.mlt.gv does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_8_scs.sasc.mlt.gv because it does not exist 
+bpipe.Utils	[1]	INFO	|3:01:22 File data/exp2/sim_8_scs.sasc.out.txt does not appear to exist: listing directory to flush file system 
+bpipe.Utils	[1]	INFO	|3:01:22 Not cleaning up file data/exp2/sim_8_scs.sasc.out.txt because it does not exist 

@@ -1,0 +1,35 @@
+<job id='59640'>
+  <succeeded>true</succeeded>
+  <startDateTime>2022-03-04 10:42:54</startDateTime>
+  <endDateTime>2022-03-04 10:54:31</endDateTime>
+  <totalCommandTimeSeconds>1116.355</totalCommandTimeSeconds>
+  <commands>
+    <command>
+      <id>5246</id>
+      <stage>sasc</stage>
+      <branch>10.1</branch>
+      <content>tools/sasc/sasc -i data/exp2/sim_10_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 3 -r 10 -p 16 -x -S 100000.0 -C 0.001 -g 1 -P data/exp2/sim_10_scs.sasc</content>
+      <start>2022-03-04 10:42:55</start>
+      <end>2022-03-04 10:53:16</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>5247</id>
+      <stage>sasc_rec</stage>
+      <branch>10.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp2/sim_10_scs.txt -m 50 -n 250 -b 1.0E-5 -a 0.15 -k 3 -j 5 -r 10 -p 16 -g 1 -q exp2.q -x -S 100000.0 -C 0.001 -P data/exp2/sim_10_scs.sasc_rec</content>
+      <start>2022-03-04 10:42:55</start>
+      <end>2022-03-04 10:49:57</end>
+      <exitCode>0</exitCode>
+    </command>
+    <command>
+      <id>5250</id>
+      <stage>plot</stage>
+      <branch></branch>
+      <content>python comparison/plotting/make.py              --tground data/exp1/*_truetree.gv              --tloaders sasc sasc              --ttools data/exp1/*.sasc_rec.mlt.gv              --ttools data/exp1/*.sasc.mlt.gv              --names "reSASC" SASC             --mgroundT data/exp1/sim_*_truescs.txt              --mgroundN data/exp1/sim_*_scs.txt              --mtools data/exp1/*.sasc_rec.out.txt              --mtools data/exp1/*.sasc.out.txt              --exp exp1 -o test</content>
+      <start>2022-03-04 10:53:16</start>
+      <end>2022-03-04 10:54:30</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

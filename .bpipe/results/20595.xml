@@ -1,0 +1,17 @@
+<job id='20595'>
+  <succeeded>true</succeeded>
+  <startDateTime>2022-02-18 11:24:26</startDateTime>
+  <endDateTime>2022-02-18 11:24:37</endDateTime>
+  <totalCommandTimeSeconds>10.533</totalCommandTimeSeconds>
+  <commands>
+    <command>
+      <id>172</id>
+      <stage>sasc_rec</stage>
+      <branch>10.2</branch>
+      <content>tools/sasc_rec/sasc -i data/exp1/sim_10_scs.txt -m 50 -n 250 -r 1 -b 1.0E-5 -a 0.15 -k 0 -j 3 -r 1 -p 4 -x -P data/exp1/sim_10_scs.sasc_rec</content>
+      <start>2022-02-18 11:24:26</start>
+      <end>2022-02-18 11:24:37</end>
+      <exitCode>0</exitCode>
+    </command>
+  </commands>
+</job>

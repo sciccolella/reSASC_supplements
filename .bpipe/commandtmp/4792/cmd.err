@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/sasc_rec_test/comparison/plotting/make.py", line 135, in <module>
+    mp3.plot_mp3(ground_tfiles, tools_tfiles)
+  File "/data/sasc_rec_test/comparison/plotting/mp3.py", line 8, in plot_mp3
+    tools = [[] for _ in range(tools_files)]
+TypeError: 'list' object cannot be interpreted as an integer

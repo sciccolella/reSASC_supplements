@@ -1,0 +1,3 @@
+[console_scripts]
+mp3treesim = mp3treesim.__main__:main
+

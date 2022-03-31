@@ -65,8 +65,8 @@ def plot_accuracy(ground_trees, tools_trees, tools_names, tot_mutations, tot_sim
     plotting.plot_ancdesc_and_difflin(df_anc_dec, df_diff_lin, exp, folder=out_folder
         )
 
-    df_anc_dec.to_csv("%s/%s_anc_desc_measures.csv" % (out_folder, exp), index=False)
-    df_diff_lin.to_csv("%s/%s_diff_lin_measures.csv" % (out_folder, exp), index=False)    
+    df_anc_dec.to_csv("%s/%s.anc_desc.csv" % (out_folder, exp), index=False)
+    df_diff_lin.to_csv("%s/%s.diff_lin.csv" % (out_folder, exp), index=False)    
 
     
 
