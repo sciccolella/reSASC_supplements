@@ -6,4 +6,4 @@
 -p MAXL=0
 -p MAXR=3
 -p SASC_G=1
--p SASC_Q=1
+-p SASC_Q=0.02

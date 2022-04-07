@@ -64,5 +64,6 @@ Bpipe.run {
     "sim_%_scs.txt" * [
             sasc,
             sasc_rec
-        ] + plot.using(PLOTDIR:"test")
+        ] 
+        // + plot.using(PLOTDIR:"test")
 }

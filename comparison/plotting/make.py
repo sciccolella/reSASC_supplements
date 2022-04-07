@@ -126,22 +126,22 @@ if __name__ == "__main__":
 
     mutations = true_mat[0].shape[1]
 
-    # print('='*50)
-    # print('Computing tree accuracies')
-    # plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
-    #     mutations, simulations, args.exp, args.outdir)
+    print('='*50)
+    print('Computing tree accuracies')
+    plot_accuracy.plot_accuracy(ground_trees, tools_trees, args.names, 
+        mutations, simulations, args.exp, args.outdir)
     
-    # print('='*50)
-    # print('Computing MP3')
-    # mp3.plot_mp3(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+    print('='*50)
+    print('Computing MP3')
+    mp3.plot_mp3(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
 
-    # print('='*50)
-    # print('Computing Recurrents')
-    # recurrent.recurrent_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+    print('='*50)
+    print('Computing Recurrents')
+    recurrent.recurrent_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
 
-    # print('='*50)
-    # print('Computing Losses')
-    # loss.loss_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
+    print('='*50)
+    print('Computing Losses')
+    loss.loss_jaccard(ground_tfiles, tools_tfiles, args.names, args.exp, args.outdir)
 
     print('='*50)
     print('Computing Log-lh')
@@ -151,14 +151,14 @@ if __name__ == "__main__":
 python comparison/plotting/make.py  \
 --tground data/exp1/sim_*_truetree.gv  \
 --tloaders sasc sasc  \
---ttools results/sasc/exp1/sim_*_mlt.gv  \
---ttools results/sasc/exp1/sim_*_mlt.gv  \
---names SASC SASC2 \
+--ttools data/exp1/sim_*_scs.sasc_rec.mlt.gv  \
+--ttools data/exp1/sim_*_scs.sasc.mlt.gv  \
+--names reSASC SASC \
 --mgroundT data/exp1/sim_*_truescs.txt  \
 --mgroundN data/exp1/sim_*_scs.txt  \
---mtools results/sasc/exp1/sim_*_scs_out.txt  \
---mtools results/sasc/exp1/sim_*_scs_out.txt  \
---exp exp1 -o test
+--mtools data/exp1/sim_*_scs.sasc_rec.out.txt  \
+--mtools data/exp1/sim_*_scs.sasc.out.txt  \
+--exp exp1 -o plots
 '''
 
 '''

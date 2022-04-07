@@ -5,5 +5,5 @@
 -p FPRATE=0.00001
 -p MAXL=5
 -p MAXR=5
--p SASC_G=1
+-p SASC_G=0.02
 -p SASC_Q=bimodal.q

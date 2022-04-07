@@ -12,17 +12,23 @@ def get_ll_from_output(path):
             return float(m.group(1))
     return 0
 
-def get_params(logf, m):
+def get_params(logf, m, unig, uniq):
     with open(logf, 'r') as fin:
         lines = fin.readlines()
     
     recs = lines[-1].strip().split()[-1].split(',')
     losses = lines[-2].strip().split()[-1].split(',')
     add_lh = 0.0
-    
+
     # NOTE: this is hardcoded values
-    gs = [0.113,0.101,0.879,0.896,0.312,0.868,0.456,0.900,0.145,0.100,0.900,0.100,0.897,0.891,0.786,0.362,0.899,0.717,0.893,0.177,0.857,0.892,0.900,0.885,0.900,0.899,0.897,0.106,0.894,0.189,0.101,0.823,0.143,0.895,0.131,0.106,0.412,0.450,0.110,0.100,0.554,0.398,0.100,0.100,0.100,0.100,0.349,0.122,0.104,0.100]
-    qs = [0.887,0.899,0.859,0.100,0.403,0.102,0.100,0.626,0.104,0.900,0.100,0.323,0.899,0.887,0.100,0.672,0.203,0.899,0.372,0.101,0.102,0.101,0.100,0.859,0.100,0.891,0.100,0.100,0.101,0.746,0.523,0.899,0.101,0.893,0.179,0.894,0.316,0.900,0.100,0.100,0.240,0.291,0.101,0.100,0.100,0.698,0.200,0.750,0.624,0.892]
+    if unig:
+        gs = [1.0 / m for _ in range(m)]
+    else:
+        gs = [0.113,0.101,0.879,0.896,0.312,0.868,0.456,0.900,0.145,0.100,0.900,0.100,0.897,0.891,0.786,0.362,0.899,0.717,0.893,0.177,0.857,0.892,0.900,0.885,0.900,0.899,0.897,0.106,0.894,0.189,0.101,0.823,0.143,0.895,0.131,0.106,0.412,0.450,0.110,0.100,0.554,0.398,0.100,0.100,0.100,0.100,0.349,0.122,0.104,0.100]
+    if uniq:
+        qs = [1.0 / m for _ in range(m)]
+    else:
+        qs = [0.887,0.899,0.859,0.100,0.403,0.102,0.100,0.626,0.104,0.900,0.100,0.323,0.899,0.887,0.100,0.672,0.203,0.899,0.372,0.101,0.102,0.101,0.100,0.859,0.100,0.891,0.100,0.100,0.101,0.746,0.523,0.899,0.101,0.893,0.179,0.894,0.316,0.900,0.100,0.100,0.240,0.291,0.101,0.100,0.100,0.698,0.200,0.750,0.624,0.892]
     
 
     if not losses == ['None']:
@@ -44,10 +50,10 @@ def get_params(logf, m):
         
 
 
-def get_ll_from_ground(g_file, tm, nm):
+def get_ll_from_ground(g_file, tm, nm, *args):
     g_log = g_file.replace('truetree.gv', 'log.txt')
 
-    alpha, beta, lh = get_params(g_log, tm.shape[1])
+    alpha, beta, lh = get_params(g_log, tm.shape[1], *args)
     like_00 = log(1 - beta)
     like_10 = log(beta)
     like_01 = list(map(log, alpha))
@@ -75,9 +81,16 @@ def get_ll_from_ground(g_file, tm, nm):
 
 def ll(ground_files, true_mat, noisy_mat, tools_files, tool_names, exp, outdir):
     grounds = list()
+    unig = True
+    uniq = True
+    if exp in ['exp5']:
+        unig = False
+    if exp in ['exp3', 'exp4', 'exp5']:
+        uniq = False
+
     for ix, _ in enumerate(true_mat):
         grounds.append(
-            get_ll_from_ground(ground_files[ix], true_mat[ix], noisy_mat[ix])
+            get_ll_from_ground(ground_files[ix], true_mat[ix], noisy_mat[ix], unig, uniq)
         )
     
 
