@@ -1,3 +1,0 @@
-/home/ciccolella/bpipe-0.9.11/bin/bpipe run -n 4 @exp1.params.bpipe.txt bpipe.pipe data/exp1/sim_10_scs.txt
------------------------
-pguid: 9030479fcc17275554860d9a06b0c3d7a8465bb7

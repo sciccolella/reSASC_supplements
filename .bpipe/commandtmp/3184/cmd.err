@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/data/sasc_rec_test/comparison/plotting/make.py", line 133, in <module>
-    print(ground_tfiles, tools_tfiles)
-NameError: name 'ground_tfiles' is not defined
