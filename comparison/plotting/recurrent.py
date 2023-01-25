@@ -14,7 +14,7 @@ def get_set_from_tree(path):
     with open(path, 'r') as fin:
         for line in fin:
             line = line.strip()
-            if 'label' in line and not 'germline' in line and not 'score' in line:
+            if 'label' in line and not 'germline' in line and not 'score' in line and not 'indianred1' in line:
                 m = re.search(r'\[label="(.+)"', line)
                 if m:
                     lbl = m.group(1)
@@ -98,4 +98,5 @@ def recurrent_jaccard(ground_files, tools_files, tool_names, exp, outdir):
 
 if __name__ == '__main__':
     import sys
-    get_set_from_tree(sys.argv[1])
+    for f in sys.argv[1:]:
+        print(f, get_set_from_tree(f))

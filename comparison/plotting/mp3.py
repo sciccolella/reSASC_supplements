@@ -1,6 +1,7 @@
 import mp3treesim as mp3
 import numpy as np
 import pandas as pd
+import re
 
 def fix_commas(path):
     newlines = []
@@ -15,6 +16,18 @@ def fix_commas(path):
                 newlines.append(line)
     return newlines
 
+def fix_colors(path):
+    newlines = []
+    with open(path, 'r') as f:
+        for line in f:
+            line = line.rstrip()
+            if 'indianred1' in line:
+                nl = re.sub(r'label="(\d+)"];', r'label="\1-"];', line)
+                newlines.append(nl)
+            else:
+                newlines.append(line)
+    return newlines
+
 def plot_mp3(ground_files, tools_files, tool_names, exp, outdir):
     grounds = list()
     for f in ground_files:
@@ -24,7 +37,8 @@ def plot_mp3(ground_files, tools_files, tool_names, exp, outdir):
     for t_ix, t_files in enumerate(tools_files):
         for f in t_files:
             tools[t_ix].append(
-                mp3.read_dotfile(f, exclude=["germline"])
+                # mp3.read_dotfile(f, exclude=["germline"])
+                mp3.read_dotstring('\n'.join(fix_colors(f)), exclude=["germline"])
             )
     
     mp3_np = np.zeros((len(ground_files), len(tools_files)))
@@ -45,3 +59,8 @@ def plot_mp3(ground_files, tools_files, tool_names, exp, outdir):
     df = pd.DataFrame(mp3_np, columns=tool_names).assign(Measure='MP3')
     df.to_csv(f'{outdir}/{exp}.mp3.csv', index=False)
     
+if __name__ == "__main__":
+    import sys
+    gt = mp3.read_dotstring('\n'.join(fix_commas(sys.argv[1])))
+    t = mp3.read_dotstring('\n'.join(fix_colors(sys.argv[2])), exclude=["germline"])
+    print(mp3.similarity(gt, t))
