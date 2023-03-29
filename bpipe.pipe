@@ -1,4 +1,4 @@
-SASC_REC="tools/sasc_rec/sasc"
+SASC_REC="tools/reSASC/sasc"
 SASC="tools/sasc/sasc"
 SASC_ITERS = 10
 SASC_S = 100000.0
@@ -42,6 +42,22 @@ sasc = {
     }
 }
 
+sascpp = {
+    requires TOTCELLS : "number of cells"
+    requires TOTMUTS : "number of mutations"
+    requires FNRATE : "fn rate"
+    requires FPRATE : "fp rate"
+    requires SASC_G : "gamma loss rate"
+    
+    produce(input.prefix+".sasc.pp.mlt.gv",input.prefix+".sasc.pp.out.txt") {
+        uses(threads:NUMTHREADS) {
+            exec """
+                $SASC -i $input -m $TOTMUTS -n $TOTCELLS -b $FPRATE -a $FNRATE -k $MAXL -d 0 -r $SASC_ITERS -p $threads -x -S $SASC_S -C $SASC_C -g $SASC_G -P ${input.prefix}.sasc.pp
+            """
+        }
+    }
+}
+
 plot = {
     requires PLOTDIR : "plot dir"
     requires EXPDIR : "results outdir"
@@ -63,7 +79,8 @@ plot = {
 Bpipe.run { 
     "sim_%_scs.txt" * [
             sasc,
-            sasc_rec
+            sasc_rec,
+            sascpp
         ] 
         // + plot.using(PLOTDIR:"test")
 }
