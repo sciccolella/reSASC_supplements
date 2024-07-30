@@ -71,6 +71,8 @@ def loss_jaccard(ground_files, tools_files, tool_names, exp, outdir):
                 rc
             )
 
+    print(grounds, tools)
+
     jacc = np.zeros((len(ground_files), len(tools_files)))
     for tool_ix, trees in enumerate(tools):
         for sim_ix, tree in enumerate(trees):

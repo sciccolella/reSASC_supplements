@@ -15,6 +15,9 @@ class Node:
         else:
             return ','.join('%sd' % x for x in self.mutations)
 
+    def __repr__(self):
+        return f"[Node: {self.id}] {self.get_name_comma()}"
+
     # def copy(self):
     #     cp = Node(self.id)
     #     cp.mutations = self.mutations
@@ -122,6 +125,18 @@ class Tree:
             m_clones.append(mut)
 
         return (m_clones, mut_to_clone)
+
+    def get_genotype_profile(self, node_id, mut):
+        profile = [0 for _ in range(mut)]
+        
+        node = self.get_node(node_id)
+        while node:
+            if node.mutations[0] != 'germline':
+                mut = int(node.mutations[0])
+                profile[mut-1] += 1
+
+            node = node.parent
+        return profile
 
 
 def __rec_ctic(node, clones, edges, node_to_clone):

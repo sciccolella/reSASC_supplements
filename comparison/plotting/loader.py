@@ -205,7 +205,6 @@ def load_from_sifit(filepath):
 
     return TREE
 
-
 def load_from_scite(filepath):
     tree = []
     with open(filepath, 'r') as f:
@@ -240,6 +239,55 @@ def load_from_scite(filepath):
             else:
                 TREE.set_mutations(0, ['germline'])
             TREE.set_mutations(e, [str(e)])
+
+    return TREE
+
+def load_from_infscite(filepath):
+    tree = []
+    with open(filepath, 'r') as f:
+        tree = f.readlines()
+
+    ROOT :Node = None
+    TREE :Tree = None
+    rootid = -1
+    LABELS = dict()
+    gv = tree[2:-1]
+    for line in gv:
+        line = line.strip()
+        line = line.replace('Root', 'germline')
+
+        if not "s_" in line and 'label' in line:
+            m = re.search(r'(\d+)\[label="(\d+(_copy)?|germline)"', line)
+            lbl = m.group(2)
+            if lbl == "germline":
+                rootid = int(m.group(1))
+                ROOT = Node(rootid)
+                TREE = Tree(ROOT)
+                TREE.set_mutations(rootid, ["germline"])
+            LABELS[int(m.group(1))] = lbl.replace("_copy", "")
+
+
+        if ' -> ' in line and not 's' in line:
+            line = line[:-1]
+            s, e = line.split(' -> ')
+
+            s = int(s.replace('"', ''))
+            e = int(e.replace('"', ''))
+
+            x = TREE.get_node(s)
+            if not x:
+                x = Node(s)
+                TREE.add_node(x)
+
+            y = TREE.get_node(e)
+            if not y:
+                y = Node(e)
+                TREE.add_node(y)
+
+            TREE.add_edge(s, e)
+            if s != rootid:
+                TREE.set_mutations(s, [LABELS[s]])
+            TREE.set_mutations(e, [LABELS[e]])
 
     return TREE
 
