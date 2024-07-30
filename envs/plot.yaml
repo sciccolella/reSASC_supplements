@@ -1,0 +1,12 @@
+name: plot
+channels:
+  - conda-forge
+dependencies:
+  - numpy 
+  - natsort 
+  - seaborn
+  - pandas
+  - pip
+  - pip:
+    - mp3treesim
+
