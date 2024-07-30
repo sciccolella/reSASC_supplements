@@ -1,6 +1,9 @@
-[submodule "tools/sasc_rec"]
-	path = tools/sasc_rec
-	url = git@github.com:sciccolella/sasc_rec.git
 [submodule "tools/sasc"]
 	path = tools/sasc
 	url = git@github.com:sciccolella/sasc.git
+[submodule "tools/resasc"]
+	path = tools/resasc
+	url = git@github.com:sciccolella/reSASC.git
+[submodule "tools/infscite"]
+	path = tools/infscite
+	url = git@github.com:cbg-ethz/infSCITE.git

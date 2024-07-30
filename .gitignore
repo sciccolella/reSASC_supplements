@@ -1,3 +1,6 @@
 resasc_supp_venv/
 .bpipe
 */__pycache__/*
+.nextflow
+.nextflow.log*
+work
