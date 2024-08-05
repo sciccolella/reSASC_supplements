@@ -63,7 +63,7 @@ process mat_infscite {
 }
 
 process run_resasc {
-  cpus 1
+  cpus 8
 
   input:
   path in_mat
@@ -86,7 +86,7 @@ process run_resasc {
 }
 
 process run_sasc {
-  cpus 1
+  cpus 8
 
   input:
   path in_mat
@@ -109,7 +109,7 @@ process run_sasc {
 }
 
 process run_ppsasc {
-  cpus 1
+  cpus 8
 
   input:
   path in_mat
@@ -178,11 +178,11 @@ process mk_plot {
 }
 
 workflow {
-  in_mat = channel.fromPath("./data/${params.expdir}/sim_[0-9]_scs.txt")
+  in_mat = channel.fromPath("./data/${params.expdir}/sim_*_scs.txt")
   // NOTE: needed only for comparison
-  gtree = channel.fromPath("./data/${params.expdir}/sim_[0-9]_truetree.gv") | collect
-  gmat = channel.fromPath("./data/${params.expdir}/sim_[0-9]_truescs.txt") | collect
-  glog = channel.fromPath("./data/${params.expdir}/sim_[0-9]_log.txt") | collect
+  gtree = channel.fromPath("./data/${params.expdir}/sim_*_truetree.gv") | collect
+  gmat = channel.fromPath("./data/${params.expdir}/sim_*_truescs.txt") | collect
+  glog = channel.fromPath("./data/${params.expdir}/sim_*_log.txt") | collect
   conv = cvt_scite_input(in_mat)
   res_infscite = conv | run_infscite
   tinfscite = res_infscite.tree | view
