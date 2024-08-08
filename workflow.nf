@@ -16,6 +16,8 @@ process cvt_scite_input {
 }
 
 process run_infscite {
+  errorStrategy 'ignore'
+
   input:
   path in_mat
 
@@ -35,7 +37,7 @@ process run_infscite {
 }
 
 process trim_infscite {
-  cache false
+  cache true
   input:
   path tin
 
@@ -49,7 +51,7 @@ process trim_infscite {
 }
 
 process mat_infscite {
-  cache false
+  cache true
   input:
   path tin
 
@@ -63,6 +65,8 @@ process mat_infscite {
 }
 
 process run_resasc {
+  errorStrategy 'ignore'
+
   cpus 8
 
   input:
@@ -86,6 +90,8 @@ process run_resasc {
 }
 
 process run_sasc {
+  errorStrategy 'ignore'
+
   cpus 8
 
   input:
@@ -109,6 +115,8 @@ process run_sasc {
 }
 
 process run_ppsasc {
+  errorStrategy 'ignore'
+
   cpus 8
 
   input:
@@ -132,7 +140,7 @@ process run_ppsasc {
 }
 
 process mk_plot {
-  cache false
+  cache true
   conda "./envs/plot.yaml"
   cpus 1
 
@@ -185,7 +193,7 @@ workflow {
   glog = channel.fromPath("./data/${params.expdir}/sim_*_log.txt") | collect
   conv = cvt_scite_input(in_mat)
   res_infscite = conv | run_infscite
-  tinfscite = res_infscite.tree | view
+  tinfscite = res_infscite.tree
   tinfscite = res_infscite.tree | trim_infscite
   minfscite = res_infscite.tree | mat_infscite 
 
