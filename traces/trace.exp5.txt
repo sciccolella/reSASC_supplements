@@ -1,0 +1,352 @@
+task_id	name	process	status	exit	duration	realtime	rss	peak_rss
+106	run_resasc (29)	run_resasc	CACHED	0	53m 18s	53m 18s	4.7 MB	4.7 MB
+172	run_sasc (48)	run_sasc	CACHED	0	1h 43m 4s	1h 43m 4s	4.7 MB	4.7 MB
+157	run_resasc (46)	run_resasc	CACHED	0	50m 51s	50m 50s	4.6 MB	4.6 MB
+55	run_resasc (12)	run_resasc	CACHED	0	18m 37s	18m 37s	4.7 MB	4.7 MB
+164	cvt_scite_input (38)	cvt_scite_input	CACHED	0	1.5s	382ms	2.1 MB	2.1 MB
+91	run_resasc (21)	run_resasc	CACHED	0	23m 55s	23m 54s	4.7 MB	4.7 MB
+132	run_resasc (36)	run_resasc	CACHED	0	23m 19s	23m 19s	4.7 MB	4.7 MB
+99	run_resasc (26)	run_resasc	CACHED	0	18m	18m	4.7 MB	4.7 MB
+123	run_resasc (33)	run_resasc	CACHED	0	19m 32s	19m 31s	4.7 MB	4.7 MB
+47	cvt_scite_input (13)	cvt_scite_input	CACHED	0	1.5s	448ms	2.2 MB	2.2 MB
+6	cvt_scite_input (2)	cvt_scite_input	CACHED	0	1.5s	356ms	24.2 MB	24.2 MB
+52	run_sasc (17)	run_sasc	CACHED	0	42m 36s	42m 35s	4.7 MB	4.7 MB
+126	run_resasc (34)	run_resasc	CACHED	0	2h 56m 28s	2h 56m 28s	4.6 MB	4.6 MB
+63	run_resasc (15)	run_resasc	CACHED	0	1h 13m 43s	1h 13m 42s	4.6 MB	4.6 MB
+113	run_ppsasc (28)	run_ppsasc	CACHED	0	27m 4s	27m 3s	4.7 MB	4.7 MB
+145	run_sasc (41)	run_sasc	CACHED	0	1h 7m 59s	1h 7m 58s	4.5 MB	4.5 MB
+14	cvt_scite_input (5)	cvt_scite_input	CACHED	0	1.5s	232ms	2.1 MB	2.1 MB
+194	cvt_scite_input (46)	cvt_scite_input	CACHED	0	1.9s	371ms	2.1 MB	2.1 MB
+184	cvt_scite_input (43)	cvt_scite_input	CACHED	0	1.9s	383ms	2.1 MB	2.1 MB
+98	run_resasc (25)	run_resasc	CACHED	0	21m 1s	21m	4.6 MB	4.6 MB
+50	run_ppsasc (11)	run_ppsasc	CACHED	0	28m 26s	28m 26s	4.7 MB	4.7 MB
+137	run_resasc (37)	run_resasc	CACHED	0	21m 29s	21m 28s	4.7 MB	4.7 MB
+77	run_ppsasc (15)	run_ppsasc	CACHED	0	33m 16s	33m 16s	4.6 MB	4.6 MB
+76	run_sasc (24)	run_sasc	CACHED	0	28m 57s	28m 56s	4.7 MB	4.7 MB
+82	run_resasc (19)	run_resasc	CACHED	0	31m 26s	31m 26s	4.6 MB	4.6 MB
+83	cvt_scite_input (22)	cvt_scite_input	CACHED	0	1.5s	522ms	10 MB	10 MB
+143	cvt_scite_input (35)	cvt_scite_input	CACHED	0	1.8s	238ms	2.2 MB	2.2 MB
+162	run_sasc (43)	run_sasc	CACHED	0	24m 38s	24m 38s	4.6 MB	4.6 MB
+45	run_ppsasc (10)	run_ppsasc	CACHED	0	59m 25s	59m 25s	4.6 MB	4.6 MB
+88	run_ppsasc (20)	run_ppsasc	CACHED	0	1h 7m 56s	1h 7m 56s	4.8 MB	4.8 MB
+23	run_sasc (9)	run_sasc	CACHED	0	57m 51s	57m 50s	4.8 MB	4.8 MB
+48	run_sasc (16)	run_sasc	CACHED	0	32m 35s	32m 35s	4.6 MB	4.6 MB
+87	run_ppsasc (19)	run_ppsasc	CACHED	0	30m 35s	30m 34s	4.6 MB	4.6 MB
+5	run_resasc (2)	run_resasc	CACHED	0	20m 2s	20m 1s	4.6 MB	4.6 MB
+161	run_ppsasc (33)	run_ppsasc	CACHED	0	31m 16s	31m 16s	4.6 MB	4.6 MB
+182	run_ppsasc (41)	run_ppsasc	CACHED	0	31m 13s	31m 13s	4.6 MB	4.6 MB
+165	run_sasc (45)	run_sasc	CACHED	0	48m 1s	48m 1s	4.5 MB	4.5 MB
+94	run_ppsasc (23)	run_ppsasc	CACHED	0	32m 58s	32m 58s	4.7 MB	4.7 MB
+10	run_sasc (4)	run_sasc	CACHED	0	41m 47s	41m 46s	4.7 MB	4.7 MB
+1	run_resasc (1)	run_resasc	CACHED	0	23m 2s	23m 2s	4.6 MB	4.6 MB
+116	run_sasc (31)	run_sasc	CACHED	0	29m 16s	29m 15s	4.7 MB	4.7 MB
+68	run_sasc (19)	run_sasc	CACHED	0	30m 53s	30m 52s	4.6 MB	4.6 MB
+148	run_resasc (41)	run_resasc	CACHED	0	1h 5m 15s	1h 5m 15s	4.7 MB	4.7 MB
+112	run_sasc (29)	run_sasc	CACHED	0	33m 1s	33m	4.7 MB	4.7 MB
+158	run_resasc (47)	run_resasc	CACHED	0	26m 39s	26m 39s	4.7 MB	4.7 MB
+155	run_sasc (42)	run_sasc	CACHED	0	1h 6m 52s	1h 6m 52s	4.6 MB	4.6 MB
+166	run_ppsasc (34)	run_ppsasc	CACHED	0	25m 10s	25m 10s	4.6 MB	4.6 MB
+84	run_resasc (20)	run_resasc	CACHED	0	20m 38s	20m 38s	4.6 MB	4.6 MB
+190	run_ppsasc (46)	run_ppsasc	CACHED	0	42m 59s	42m 59s	4.6 MB	4.6 MB
+199	cvt_scite_input (49)	cvt_scite_input	CACHED	0	1.8s	367ms	2.2 MB	2.2 MB
+183	cvt_scite_input (42)	cvt_scite_input	CACHED	0	1.4s	368ms	22.3 MB	22.3 MB
+200	cvt_scite_input (50)	cvt_scite_input	CACHED	0	1.3s	213ms	2.1 MB	2.1 MB
+125	cvt_scite_input (28)	cvt_scite_input	CACHED	0	1.8s	252ms	23.8 MB	24.2 MB
+90	run_ppsasc (22)	run_ppsasc	CACHED	0	34m 48s	34m 47s	4.7 MB	4.7 MB
+180	run_ppsasc (40)	run_ppsasc	CACHED	0	31m 35s	31m 34s	4.7 MB	4.7 MB
+175	run_sasc (50)	run_sasc	CACHED	0	23m 46s	23m 46s	4.8 MB	4.8 MB
+146	run_ppsasc (31)	run_ppsasc	CACHED	0	29m 50s	29m 50s	4.6 MB	4.6 MB
+20	run_ppsasc (3)	run_ppsasc	CACHED	0	1h 19m 16s	1h 19m 15s	4.6 MB	4.6 MB
+97	run_ppsasc (24)	run_ppsasc	CACHED	0	27m 51s	27m 51s	4.8 MB	4.8 MB
+152	run_resasc (43)	run_resasc	CACHED	0	25m 41s	25m 40s	4.7 MB	4.7 MB
+58	run_resasc (13)	run_resasc	CACHED	0	18m 43s	18m 43s	4.6 MB	4.6 MB
+140	run_sasc (40)	run_sasc	CACHED	0	42m 28s	42m 27s	4.7 MB	4.7 MB
+185	run_ppsasc (42)	run_ppsasc	CACHED	0	29m 31s	29m 31s	4.7 MB	4.7 MB
+36	run_sasc (13)	run_sasc	CACHED	0	31m 47s	31m 46s	4.7 MB	4.7 MB
+34	run_ppsasc (7)	run_ppsasc	CACHED	0	20m 18s	20m 18s	4.6 MB	4.6 MB
+153	run_resasc (44)	run_resasc	CACHED	0	24m 33s	24m 33s	4.6 MB	4.6 MB
+187	run_ppsasc (43)	run_ppsasc	CACHED	0	46m 23s	46m 23s	4.7 MB	4.7 MB
+118	run_sasc (33)	run_sasc	CACHED	0	38m 18s	38m 17s	4.5 MB	4.5 MB
+105	run_sasc (27)	run_sasc	CACHED	0	40m 45s	40m 45s	4.6 MB	4.6 MB
+139	cvt_scite_input (33)	cvt_scite_input	CACHED	0	1.5s	495ms	24.2 MB	24.2 MB
+171	cvt_scite_input (40)	cvt_scite_input	CACHED	0	1.7s	319ms	17.2 MB	17.2 MB
+41	run_resasc (8)	run_resasc	CACHED	0	18m 6s	18m 5s	4.7 MB	4.7 MB
+115	run_sasc (30)	run_sasc	CACHED	0	41m 49s	41m 49s	4.6 MB	4.6 MB
+168	run_ppsasc (35)	run_ppsasc	CACHED	0	1h 9m 4s	1h 9m 4s	4.6 MB	4.6 MB
+198	cvt_scite_input (48)	cvt_scite_input	CACHED	0	1.6s	299ms	22.7 MB	22.7 MB
+27	run_sasc (11)	run_sasc	CACHED	0	1h 33m 18s	1h 33m 18s	4.6 MB	4.6 MB
+117	run_sasc (32)	run_sasc	CACHED	0	31m 21s	31m 20s	4.6 MB	4.6 MB
+13	run_ppsasc (2)	run_ppsasc	CACHED	0	32m 20s	32m 20s	4.7 MB	4.7 MB
+96	run_resasc (24)	run_resasc	CACHED	0	23m 57s	23m 57s	4.7 MB	4.7 MB
+38	cvt_scite_input (11)	cvt_scite_input	CACHED	0	1.6s	323ms	2.1 MB	2.1 MB
+144	run_resasc (39)	run_resasc	CACHED	0	27m 29s	27m 28s	4.6 MB	4.6 MB
+33	cvt_scite_input (9)	cvt_scite_input	CACHED	0	1.6s	630ms	16.7 MB	16.7 MB
+122	cvt_scite_input (27)	cvt_scite_input	CACHED	0	1.5s	619ms	16.1 MB	16.1 MB
+131	run_ppsasc (30)	run_ppsasc	CACHED	0	35m 34s	35m 33s	4.6 MB	4.6 MB
+7	run_sasc (2)	run_sasc	CACHED	0	38m 49s	38m 49s	4.7 MB	4.7 MB
+25	run_sasc (10)	run_sasc	CACHED	0	1h 1m 16s	1h 1m 15s	4.6 MB	4.6 MB
+120	cvt_scite_input (26)	cvt_scite_input	CACHED	0	1.5s	610ms	17.5 MB	17.5 MB
+193	run_ppsasc (48)	run_ppsasc	CACHED	0	27m 27s	27m 27s	4.7 MB	4.7 MB
+110	run_ppsasc (27)	run_ppsasc	CACHED	0	29m 54s	29m 54s	4.5 MB	4.5 MB
+73	run_sasc (21)	run_sasc	CACHED	0	32m 25s	32m 24s	4.7 MB	4.7 MB
+67	cvt_scite_input (19)	cvt_scite_input	CACHED	0	1.4s	271ms	24.1 MB	24.2 MB
+178	run_ppsasc (38)	run_ppsasc	CACHED	0	1h 24m 42s	1h 24m 42s	4.7 MB	4.7 MB
+18	run_sasc (7)	run_sasc	CACHED	0	29m 1s	29m 1s	4.7 MB	4.7 MB
+60	run_resasc (14)	run_resasc	CACHED	0	17m 46s	17m 46s	4.6 MB	4.6 MB
+62	run_ppsasc (14)	run_ppsasc	CACHED	0	26m 45s	26m 45s	4.5 MB	4.5 MB
+150	cvt_scite_input (37)	cvt_scite_input	CACHED	0	1.8s	332ms	2.3 MB	2.3 MB
+174	run_resasc (50)	run_resasc	CACHED	0	20m 43s	20m 42s	4.6 MB	4.6 MB
+57	run_ppsasc (13)	run_ppsasc	CACHED	0	28m 49s	28m 49s	4.6 MB	4.6 MB
+170	run_sasc (47)	run_sasc	CACHED	0	30m 45s	30m 45s	4.6 MB	4.6 MB
+9	cvt_scite_input (3)	cvt_scite_input	CACHED	0	1.3s	203ms	2.1 MB	2.1 MB
+8	run_sasc (3)	run_sasc	CACHED	0	23m 44s	23m 44s	4.7 MB	4.7 MB
+2	cvt_scite_input (1)	cvt_scite_input	CACHED	0	1.6s	541ms	16.5 MB	16.5 MB
+102	run_ppsasc (26)	run_ppsasc	CACHED	0	38m 7s	38m 7s	4.6 MB	4.6 MB
+39	run_sasc (14)	run_sasc	CACHED	0	55m 30s	55m 30s	4.6 MB	4.6 MB
+134	cvt_scite_input (31)	cvt_scite_input	CACHED	0	1.6s	379ms	23.4 MB	23.4 MB
+109	cvt_scite_input (25)	cvt_scite_input	CACHED	0	1.8s	275ms	2.1 MB	2.1 MB
+43	cvt_scite_input (12)	cvt_scite_input	CACHED	0	1.8s	411ms	2.2 MB	2.2 MB
+114	run_resasc (32)	run_resasc	CACHED	0	20m 27s	20m 26s	4.5 MB	4.5 MB
+74	run_sasc (22)	run_sasc	CACHED	0	37m 5s	37m 5s	4.6 MB	4.6 MB
+103	run_resasc (28)	run_resasc	CACHED	0	21m 8s	21m 7s	4.6 MB	4.6 MB
+49	run_resasc (10)	run_resasc	CACHED	0	19m 30s	19m 29s	4.6 MB	4.6 MB
+79	run_sasc (25)	run_sasc	CACHED	0	33m 50s	33m 49s	4.8 MB	4.8 MB
+169	run_sasc (46)	run_sasc	CACHED	0	42m 5s	42m 5s	4.6 MB	4.6 MB
+108	run_resasc (30)	run_resasc	CACHED	0	48m 37s	48m 36s	4.6 MB	4.6 MB
+136	cvt_scite_input (32)	cvt_scite_input	CACHED	0	1.7s	323ms	2.2 MB	2.2 MB
+40	run_ppsasc (8)	run_ppsasc	CACHED	0	27m 23s	27m 23s	4.8 MB	4.8 MB
+66	cvt_scite_input (18)	cvt_scite_input	CACHED	0	1.9s	375ms	2.1 MB	2.1 MB
+167	cvt_scite_input (39)	cvt_scite_input	CACHED	0	1.8s	290ms	24.1 MB	24.1 MB
+81	run_resasc (18)	run_resasc	CACHED	0	38m 35s	38m 35s	4.7 MB	4.7 MB
+176	run_ppsasc (36)	run_ppsasc	CACHED	0	59m 40s	59m 40s	4.5 MB	4.5 MB
+141	cvt_scite_input (34)	cvt_scite_input	CACHED	0	1.8s	403ms	2.2 MB	2.2 MB
+121	run_ppsasc (29)	run_ppsasc	CACHED	0	34m 8s	34m 8s	4.6 MB	4.6 MB
+160	run_resasc (49)	run_resasc	CACHED	0	23m 11s	23m 10s	4.6 MB	4.6 MB
+188	run_ppsasc (44)	run_ppsasc	CACHED	0	20m 32s	20m 32s	4.6 MB	4.6 MB
+111	run_resasc (31)	run_resasc	CACHED	0	19m 1s	19m	4.6 MB	4.6 MB
+89	run_ppsasc (21)	run_ppsasc	CACHED	0	55m 48s	55m 48s	4.6 MB	4.6 MB
+37	run_resasc (7)	run_resasc	CACHED	0	18m 1s	18m	4.7 MB	4.7 MB
+51	run_resasc (11)	run_resasc	CACHED	0	18m 29s	18m 29s	4.6 MB	4.6 MB
+69	cvt_scite_input (20)	cvt_scite_input	CACHED	0	1.4s	311ms	22.5 MB	22.5 MB
+70	cvt_scite_input (21)	cvt_scite_input	CACHED	0	1.8s	339ms	20.5 MB	20.5 MB
+54	run_ppsasc (12)	run_ppsasc	CACHED	0	47m 46s	47m 46s	4.6 MB	4.6 MB
+179	run_ppsasc (39)	run_ppsasc	CACHED	0	28m 25s	28m 25s	4.6 MB	4.6 MB
+128	run_sasc (36)	run_sasc	CACHED	0	22m 11s	22m 10s	4.6 MB	4.6 MB
+3	run_ppsasc (1)	run_ppsasc	CACHED	0	27m 23s	27m 23s	4.6 MB	4.6 MB
+31	run_ppsasc (6)	run_ppsasc	CACHED	0	28m 28s	28m 28s	4.6 MB	4.6 MB
+46	run_resasc (9)	run_resasc	CACHED	0	19m 19s	19m 18s	4.7 MB	4.7 MB
+21	run_sasc (8)	run_sasc	CACHED	0	28m 42s	28m 42s	4.7 MB	4.7 MB
+138	run_sasc (39)	run_sasc	CACHED	0	36m 4s	36m 3s	4.6 MB	4.6 MB
+101	run_ppsasc (25)	run_ppsasc	CACHED	0	37m 18s	37m 18s	4.7 MB	4.7 MB
+147	run_resasc (40)	run_resasc	CACHED	0	2h 31m 57s	2h 31m 57s	4.6 MB	4.6 MB
+80	run_ppsasc (17)	run_ppsasc	CACHED	0	2h 8m 36s	2h 8m 36s	4.6 MB	4.6 MB
+30	run_sasc (12)	run_sasc	CACHED	0	40m 13s	40m 13s	4.6 MB	4.6 MB
+11	cvt_scite_input (4)	cvt_scite_input	CACHED	0	1.4s	268ms	2.2 MB	2.2 MB
+173	run_sasc (49)	run_sasc	CACHED	0	33m 9s	33m 9s	4.7 MB	4.7 MB
+86	cvt_scite_input (23)	cvt_scite_input	CACHED	0	1.8s	392ms	2.1 MB	2.1 MB
+151	run_resasc (42)	run_resasc	CACHED	0	25m 5s	25m 5s	4.6 MB	4.6 MB
+24	run_ppsasc (4)	run_ppsasc	CACHED	0	29m 5s	29m 5s	4.7 MB	4.7 MB
+32	run_resasc (6)	run_resasc	CACHED	0	37m 49s	37m 48s	4.7 MB	4.7 MB
+56	cvt_scite_input (15)	cvt_scite_input	CACHED	0	1.6s	294ms	2.2 MB	2.2 MB
+107	run_sasc (28)	run_sasc	CACHED	0	28m 51s	28m 51s	4.7 MB	4.7 MB
+195	run_ppsasc (49)	run_ppsasc	CACHED	0	49m 3s	49m 3s	4.6 MB	4.6 MB
+177	run_ppsasc (37)	run_ppsasc	CACHED	0	3h 5m 6s	3h 5m 5s	4.7 MB	4.7 MB
+35	cvt_scite_input (10)	cvt_scite_input	CACHED	0	1.5s	303ms	2.2 MB	2.2 MB
+85	run_ppsasc (18)	run_ppsasc	CACHED	0	1h 59m 43s	1h 59m 42s	4.6 MB	4.6 MB
+196	run_ppsasc (50)	run_ppsasc	CACHED	0	25m 47s	25m 46s	4.6 MB	4.6 MB
+64	cvt_scite_input (17)	cvt_scite_input	CACHED	0	1.8s	354ms	0	0
+159	run_resasc (48)	run_resasc	CACHED	0	57m 42s	57m 42s	4.6 MB	4.6 MB
+124	run_sasc (35)	run_sasc	CACHED	0	34m 15s	34m 15s	4.7 MB	4.7 MB
+59	cvt_scite_input (16)	cvt_scite_input	CACHED	0	1.6s	339ms	2.2 MB	2.2 MB
+71	run_resasc (17)	run_resasc	CACHED	0	29m 17s	29m 16s	4.7 MB	4.7 MB
+197	cvt_scite_input (47)	cvt_scite_input	CACHED	0	1.5s	515ms	17.9 MB	17.9 MB
+93	run_resasc (22)	run_resasc	CACHED	0	49m 14s	49m 13s	4.6 MB	4.6 MB
+156	run_resasc (45)	run_resasc	CACHED	0	24m 16s	24m 16s	4.6 MB	4.6 MB
+192	cvt_scite_input (45)	cvt_scite_input	CACHED	0	1.8s	377ms	24.2 MB	24.2 MB
+28	cvt_scite_input (8)	cvt_scite_input	CACHED	0	1.4s	301ms	2.2 MB	2.2 MB
+4	run_sasc (1)	run_sasc	CACHED	0	1h 9m 32s	1h 9m 31s	4.6 MB	4.6 MB
+189	run_ppsasc (45)	run_ppsasc	CACHED	0	33m 5s	33m 5s	4.5 MB	4.5 MB
+65	run_resasc (16)	run_resasc	CACHED	0	20m 33s	20m 32s	4.6 MB	4.6 MB
+75	run_sasc (23)	run_sasc	CACHED	0	44m 2s	44m 2s	4.6 MB	4.6 MB
+186	cvt_scite_input (44)	cvt_scite_input	CACHED	0	1.9s	314ms	2.1 MB	2.1 MB
+78	run_ppsasc (16)	run_ppsasc	CACHED	0	1h 10m 8s	1h 10m 8s	4.5 MB	4.5 MB
+15	run_sasc (6)	run_sasc	CACHED	0	37m 32s	37m 31s	4.6 MB	4.6 MB
+142	run_resasc (38)	run_resasc	CACHED	0	36m 47s	36m 47s	4.6 MB	4.6 MB
+16	cvt_scite_input (6)	cvt_scite_input	CACHED	0	1.6s	204ms	2.1 MB	2.1 MB
+104	cvt_scite_input (24)	cvt_scite_input	CACHED	0	1.8s	595ms	10.6 MB	10.6 MB
+19	cvt_scite_input (7)	cvt_scite_input	CACHED	0	1.4s	367ms	19.4 MB	19.4 MB
+95	run_resasc (23)	run_resasc	CACHED	0	1h 35m 43s	1h 35m 43s	4.6 MB	4.6 MB
+22	run_resasc (4)	run_resasc	CACHED	0	37m 40s	37m 39s	4.6 MB	4.6 MB
+42	run_sasc (15)	run_sasc	CACHED	0	48m 38s	48m 37s	4.7 MB	4.7 MB
+61	run_sasc (18)	run_sasc	CACHED	0	46m 57s	46m 57s	4.6 MB	4.6 MB
+92	run_sasc (26)	run_sasc	CACHED	0	40m 11s	40m 11s	4.6 MB	4.6 MB
+181	cvt_scite_input (41)	cvt_scite_input	CACHED	0	1.7s	498ms	19.7 MB	19.7 MB
+119	run_sasc (34)	run_sasc	CACHED	0	39m 41s	39m 41s	4.8 MB	4.8 MB
+29	run_ppsasc (5)	run_ppsasc	CACHED	0	37m 10s	37m 9s	4.6 MB	4.6 MB
+129	cvt_scite_input (30)	cvt_scite_input	CACHED	0	1.5s	594ms	16.9 MB	16.9 MB
+72	run_sasc (20)	run_sasc	CACHED	0	1h 5m 13s	1h 5m 13s	4.7 MB	4.7 MB
+100	run_resasc (27)	run_resasc	CACHED	0	1h 8m 5s	1h 8m 5s	4.6 MB	4.6 MB
+53	cvt_scite_input (14)	cvt_scite_input	CACHED	0	1.6s	297ms	22.8 MB	22.8 MB
+163	run_sasc (44)	run_sasc	CACHED	0	50m 29s	50m 29s	4.6 MB	4.6 MB
+133	run_sasc (37)	run_sasc	CACHED	0	44m 31s	44m 31s	4.7 MB	4.7 MB
+149	cvt_scite_input (36)	cvt_scite_input	CACHED	0	1.6s	444ms	24.2 MB	24.2 MB
+154	run_ppsasc (32)	run_ppsasc	CACHED	0	2h 34m 20s	2h 34m 19s	4.6 MB	4.6 MB
+12	run_sasc (5)	run_sasc	CACHED	0	30m 48s	30m 48s	4.6 MB	4.6 MB
+127	cvt_scite_input (29)	cvt_scite_input	CACHED	0	1.4s	418ms	19.9 MB	19.9 MB
+26	run_resasc (5)	run_resasc	CACHED	0	19m 10s	19m 9s	4.7 MB	4.7 MB
+191	run_ppsasc (47)	run_ppsasc	CACHED	0	24m 42s	24m 42s	4.6 MB	4.6 MB
+17	run_resasc (3)	run_resasc	CACHED	0	20m 47s	20m 46s	4.5 MB	4.5 MB
+44	run_ppsasc (9)	run_ppsasc	CACHED	0	29m 29s	29m 28s	4.6 MB	4.6 MB
+130	run_resasc (35)	run_resasc	CACHED	0	22m 31s	22m 30s	4.7 MB	4.7 MB
+135	run_sasc (38)	run_sasc	CACHED	0	37m 13s	37m 13s	4.7 MB	4.7 MB
+246	run_infscite (42)	run_infscite	CACHED	0	7h 37s	7h 37s	5 MB	5 MB
+223	run_infscite (2)	run_infscite	CACHED	0	6h 35m 8s	6h 35m 8s	5 MB	5 MB
+232	run_infscite (11)	run_infscite	CACHED	0	6h 21m 21s	6h 21m 20s	5 MB	5 MB
+216	run_infscite (20)	run_infscite	CACHED	0	6h 33m 28s	6h 33m 28s	5.1 MB	5.1 MB
+217	run_infscite (38)	run_infscite	CACHED	0	6h 6m 48s	6h 6m 47s	4.9 MB	4.9 MB
+236	run_infscite (6)	run_infscite	CACHED	0	6h 18m 12s	6h 18m 12s	5.1 MB	5.1 MB
+243	run_infscite (17)	run_infscite	CACHED	0	6h 43m 8s	6h 43m 8s	5.1 MB	5.1 MB
+242	run_infscite (30)	run_infscite	CACHED	0	6h 10m 26s	6h 10m 26s	5.1 MB	5.1 MB
+229	run_infscite (22)	run_infscite	CACHED	0	6h 31m 26s	6h 31m 26s	5.1 MB	5.1 MB
+244	run_infscite (15)	run_infscite	CACHED	0	6h 27m 52s	6h 27m 52s	5 MB	5 MB
+219	run_infscite (23)	run_infscite	CACHED	0	6h 30m 51s	6h 30m 50s	5 MB	5 MB
+203	run_infscite (8)	run_infscite	CACHED	0	6h 16m 8s	6h 16m 8s	5.1 MB	5.1 MB
+250	run_infscite (24)	run_infscite	CACHED	0	6h 37m 1s	6h 37m	5.1 MB	5.1 MB
+233	run_infscite (10)	run_infscite	CACHED	0	5h 43m 45s	5h 43m 45s	5 MB	5 MB
+218	run_infscite (33)	run_infscite	CACHED	0	5h 58m 55s	5h 58m 54s	5.2 MB	5.2 MB
+214	run_infscite (14)	run_infscite	CACHED	0	6h 9m 39s	6h 9m 39s	5 MB	5 MB
+235	run_infscite (41)	run_infscite	CACHED	0	5h 46m 24s	5h 46m 23s	5 MB	5 MB
+228	run_infscite (44)	run_infscite	CACHED	0	6h 11m 12s	6h 11m 11s	5 MB	5 MB
+209	run_infscite (43)	run_infscite	CACHED	0	6h 40s	6h 39s	5 MB	5 MB
+239	run_infscite (34)	run_infscite	CACHED	0	6h 4m 25s	6h 4m 25s	5 MB	5 MB
+247	run_infscite (16)	run_infscite	CACHED	0	5h 42m 30s	5h 42m 29s	4.9 MB	4.9 MB
+240	run_infscite (39)	run_infscite	CACHED	0	6h 9m 49s	6h 9m 49s	5 MB	5 MB
+221	run_infscite (25)	run_infscite	CACHED	0	6h 11m 21s	6h 11m 21s	5.1 MB	5.1 MB
+241	run_infscite (28)	run_infscite	CACHED	0	7h 2m 48s	7h 2m 48s	4.9 MB	4.9 MB
+213	run_infscite (27)	run_infscite	CACHED	0	6h 3m 48s	6h 3m 48s	5 MB	5 MB
+207	run_infscite (3)	run_infscite	CACHED	0	6h 43s	6h 43s	5 MB	5 MB
+248	run_infscite (12)	run_infscite	CACHED	0	6h 28m 55s	6h 28m 55s	4.9 MB	4.9 MB
+222	run_infscite (40)	run_infscite	CACHED	0	6h 6m 24s	6h 6m 24s	5 MB	5 MB
+225	run_infscite (37)	run_infscite	CACHED	0	6h 6m 1s	6h 6m	5.1 MB	5.1 MB
+204	run_infscite (18)	run_infscite	CACHED	0	6h 13m 14s	6h 13m 14s	5 MB	5 MB
+238	run_infscite (49)	run_infscite	CACHED	0	5h 8m 7s	5h 8m 7s	5.1 MB	5.1 MB
+234	run_infscite (36)	run_infscite	CACHED	0	5h 45m 46s	5h 45m 45s	5.1 MB	5.1 MB
+201	run_infscite (45)	run_infscite	CACHED	0	7h 3m 13s	7h 3m 13s	5 MB	5 MB
+208	run_infscite (47)	run_infscite	CACHED	0	6h 16m 2s	6h 16m 1s	5 MB	5 MB
+245	run_infscite (21)	run_infscite	CACHED	0	6h 36m 30s	6h 36m 30s	5 MB	5 MB
+249	run_infscite (35)	run_infscite	CACHED	0	6h 10m 46s	6h 10m 46s	5 MB	5 MB
+211	run_infscite (48)	run_infscite	CACHED	0	7h 3m	7h 3m	5 MB	5 MB
+237	run_infscite (46)	run_infscite	CACHED	0	5h 49m 5s	5h 49m 4s	5 MB	5 MB
+231	run_infscite (5)	run_infscite	CACHED	0	6h 28m 35s	6h 28m 35s	5 MB	5 MB
+226	run_infscite (31)	run_infscite	CACHED	0	6h 26m 48s	6h 26m 47s	5.1 MB	5.1 MB
+220	run_infscite (9)	run_infscite	CACHED	0	6h 25m 10s	6h 25m 10s	5.1 MB	5.1 MB
+224	run_infscite (13)	run_infscite	CACHED	0	6h 14m 59s	6h 14m 59s	5 MB	5 MB
+210	run_infscite (29)	run_infscite	CACHED	0	6h 2m 40s	6h 2m 40s	5.1 MB	5.1 MB
+206	run_infscite (7)	run_infscite	CACHED	0	6h 31m 47s	6h 31m 47s	5.1 MB	5.1 MB
+227	run_infscite (50)	run_infscite	CACHED	0	6h 5m 18s	6h 5m 17s	4.9 MB	4.9 MB
+205	run_infscite (26)	run_infscite	CACHED	0	6h 13m 7s	6h 13m 7s	5.1 MB	5.1 MB
+202	run_infscite (1)	run_infscite	CACHED	0	6h 25m 56s	6h 25m 56s	5.1 MB	5.1 MB
+230	run_infscite (32)	run_infscite	CACHED	0	5h 57m 41s	5h 57m 40s	5.1 MB	5.1 MB
+215	run_infscite (19)	run_infscite	CACHED	0	6h 41m 53s	6h 41m 52s	4.9 MB	4.9 MB
+212	run_infscite (4)	run_infscite	CACHED	0	6h 34m 29s	6h 34m 28s	5 MB	5 MB
+336	mat_infscite (26)	mat_infscite	CACHED	0	826ms	344ms	2.1 MB	2.1 MB
+252	mat_infscite (20)	mat_infscite	CACHED	0	842ms	271ms	2.2 MB	2.2 MB
+307	trim_infscite (25)	trim_infscite	CACHED	0	614ms	171ms	0	0
+292	trim_infscite (32)	trim_infscite	CACHED	0	878ms	220ms	2.2 MB	2.2 MB
+303	mat_infscite (44)	mat_infscite	CACHED	0	459ms	197ms	2.2 MB	2.2 MB
+316	mat_infscite (29)	mat_infscite	CACHED	0	819ms	327ms	2.2 MB	2.2 MB
+335	trim_infscite (26)	trim_infscite	CACHED	0	691ms	98ms	0	0
+337	trim_infscite (4)	trim_infscite	CACHED	0	777ms	159ms	0	0
+289	mat_infscite (33)	mat_infscite	CACHED	0	748ms	237ms	2.2 MB	2.2 MB
+299	trim_infscite (48)	trim_infscite	CACHED	0	369ms	46ms	2.2 MB	2.2 MB
+323	trim_infscite (37)	trim_infscite	CACHED	0	689ms	107ms	0	0
+338	mat_infscite (4)	mat_infscite	CACHED	0	1.1s	356ms	2.1 MB	2.1 MB
+258	trim_infscite (3)	trim_infscite	CACHED	0	744ms	161ms	0	0
+320	trim_infscite (45)	trim_infscite	CACHED	0	371ms	41ms	2.2 MB	2.2 MB
+324	mat_infscite (37)	mat_infscite	CACHED	0	723ms	248ms	2.2 MB	2.2 MB
+325	mat_infscite (10)	mat_infscite	CACHED	0	1.1s	630ms	24.8 MB	24.8 MB
+350	mat_infscite (11)	mat_infscite	CACHED	0	1.1s	627ms	2.2 MB	2.2 MB
+339	trim_infscite (50)	trim_infscite	CACHED	0	354ms	144ms	9.5 MB	9.5 MB
+343	trim_infscite (6)	trim_infscite	CACHED	0	1.2s	251ms	0	0
+342	trim_infscite (36)	trim_infscite	CACHED	0	869ms	240ms	2.3 MB	2.3 MB
+315	trim_infscite (31)	trim_infscite	CACHED	0	514ms	81ms	0	0
+265	trim_infscite (40)	trim_infscite	CACHED	0	731ms	78ms	0	0
+344	mat_infscite (6)	mat_infscite	CACHED	0	1.4s	494ms	2.1 MB	2.1 MB
+288	trim_infscite (38)	trim_infscite	CACHED	0	554ms	62ms	0	0
+347	trim_infscite (14)	trim_infscite	CACHED	0	838ms	117ms	0	0
+327	trim_infscite (30)	trim_infscite	CACHED	0	752ms	78ms	0	0
+294	mat_infscite (39)	mat_infscite	CACHED	0	845ms	224ms	2.2 MB	2.2 MB
+326	trim_infscite (10)	trim_infscite	CACHED	0	997ms	150ms	0	0
+278	mat_infscite (12)	mat_infscite	CACHED	0	1.2s	620ms	2.2 MB	2.2 MB
+291	mat_infscite (32)	mat_infscite	CACHED	0	817ms	307ms	2.2 MB	2.2 MB
+301	mat_infscite (21)	mat_infscite	CACHED	0	604ms	307ms	2.2 MB	2.2 MB
+273	mat_infscite (43)	mat_infscite	CACHED	0	538ms	267ms	17.6 MB	17.6 MB
+341	mat_infscite (36)	mat_infscite	CACHED	0	755ms	256ms	2.2 MB	2.2 MB
+296	trim_infscite (5)	trim_infscite	CACHED	0	1s	137ms	0	0
+267	trim_infscite (1)	trim_infscite	CACHED	0	851ms	250ms	0	0
+276	mat_infscite (28)	mat_infscite	CACHED	0	751ms	279ms	17.2 MB	17.2 MB
+312	mat_infscite (31)	mat_infscite	CACHED	0	728ms	307ms	26.4 MB	26.4 MB
+268	trim_infscite (12)	trim_infscite	CACHED	0	691ms	91ms	0	0
+311	trim_infscite (46)	trim_infscite	CACHED	0	327ms	75ms	0	0
+253	trim_infscite (8)	trim_infscite	CACHED	0	887ms	146ms	0	0
+340	mat_infscite (50)	mat_infscite	CACHED	0	346ms	175ms	17.2 MB	17.2 MB
+270	mat_infscite (34)	mat_infscite	CACHED	0	724ms	314ms	2.1 MB	2.1 MB
+272	trim_infscite (24)	trim_infscite	CACHED	0	508ms	73ms	0	0
+274	mat_infscite (40)	mat_infscite	CACHED	0	773ms	271ms	2.1 MB	2.1 MB
+318	mat_infscite (45)	mat_infscite	CACHED	0	407ms	191ms	26.4 MB	26.4 MB
+261	mat_infscite (47)	mat_infscite	CACHED	0	458ms	270ms	17.4 MB	17.4 MB
+314	mat_infscite (15)	mat_infscite	CACHED	0	1s	403ms	2.2 MB	2.2 MB
+298	trim_infscite (41)	trim_infscite	CACHED	0	778ms	111ms	0	0
+304	trim_infscite (44)	trim_infscite	CACHED	0	419ms	117ms	0	0
+334	trim_infscite (19)	trim_infscite	CACHED	0	600ms	108ms	0	0
+259	mat_infscite (13)	mat_infscite	CACHED	0	983ms	590ms	2.2 MB	2.2 MB
+321	mat_infscite (35)	mat_infscite	CACHED	0	911ms	373ms	2.1 MB	2.1 MB
+256	trim_infscite (47)	trim_infscite	CACHED	0	389ms	56ms	2.2 MB	2.2 MB
+260	trim_infscite (34)	trim_infscite	CACHED	0	504ms	74ms	0	0
+275	trim_infscite (23)	trim_infscite	CACHED	0	585ms	57ms	0	0
+271	mat_infscite (9)	mat_infscite	CACHED	0	1.3s	383ms	2.2 MB	2.2 MB
+286	trim_infscite (33)	trim_infscite	CACHED	0	531ms	78ms	0	0
+348	mat_infscite (14)	mat_infscite	CACHED	0	897ms	616ms	26.4 MB	26.4 MB
+349	trim_infscite (11)	trim_infscite	CACHED	0	676ms	85ms	0	0
+333	mat_infscite (19)	mat_infscite	CACHED	0	879ms	320ms	2.2 MB	2.2 MB
+262	trim_infscite (9)	trim_infscite	CACHED	0	830ms	163ms	0	0
+263	mat_infscite (18)	mat_infscite	CACHED	0	1s	523ms	26.4 MB	26.4 MB
+293	trim_infscite (39)	trim_infscite	CACHED	0	586ms	82ms	0	0
+322	trim_infscite (35)	trim_infscite	CACHED	0	569ms	130ms	0	0
+328	mat_infscite (30)	mat_infscite	CACHED	0	744ms	262ms	26.5 MB	26.5 MB
+310	mat_infscite (17)	mat_infscite	CACHED	0	1.2s	589ms	26.5 MB	26.5 MB
+306	trim_infscite (49)	trim_infscite	CACHED	0	381ms	98ms	2.2 MB	2.2 MB
+290	mat_infscite (38)	mat_infscite	CACHED	0	740ms	263ms	2.1 MB	2.1 MB
+346	mat_infscite (27)	mat_infscite	CACHED	0	993ms	392ms	2.2 MB	2.2 MB
+330	mat_infscite (42)	mat_infscite	CACHED	0	531ms	215ms	2.1 MB	2.1 MB
+309	mat_infscite (46)	mat_infscite	CACHED	0	341ms	190ms	26.3 MB	26.6 MB
+295	mat_infscite (5)	mat_infscite	CACHED	0	1.2s	461ms	2.2 MB	2.2 MB
+308	mat_infscite (25)	mat_infscite	CACHED	0	711ms	314ms	26.5 MB	26.5 MB
+329	trim_infscite (42)	trim_infscite	CACHED	0	432ms	46ms	0	0
+305	mat_infscite (49)	mat_infscite	CACHED	0	383ms	197ms	26.4 MB	26.4 MB
+317	trim_infscite (15)	trim_infscite	CACHED	0	1.1s	259ms	0	0
+302	trim_infscite (21)	trim_infscite	CACHED	0	457ms	56ms	0	0
+313	trim_infscite (17)	trim_infscite	CACHED	0	1.1s	188ms	0	0
+345	trim_infscite (27)	trim_infscite	CACHED	0	716ms	142ms	0	0
+281	mat_infscite (24)	mat_infscite	CACHED	0	598ms	259ms	2.2 MB	2.2 MB
+282	trim_infscite (2)	trim_infscite	CACHED	0	972ms	189ms	0	0
+285	mat_infscite (22)	mat_infscite	CACHED	0	702ms	241ms	2.1 MB	2.1 MB
+264	trim_infscite (43)	trim_infscite	CACHED	0	391ms	43ms	2.1 MB	2.1 MB
+255	trim_infscite (13)	trim_infscite	CACHED	0	968ms	329ms	2.2 MB	2.2 MB
+332	trim_infscite (7)	trim_infscite	CACHED	0	808ms	143ms	0	0
+319	trim_infscite (29)	trim_infscite	CACHED	0	778ms	67ms	0	0
+297	mat_infscite (41)	mat_infscite	CACHED	0	898ms	352ms	2.2 MB	2.2 MB
+279	trim_infscite (16)	trim_infscite	CACHED	0	758ms	201ms	0	0
+277	mat_infscite (1)	mat_infscite	CACHED	0	1.2s	705ms	2.1 MB	2.1 MB
+266	trim_infscite (28)	trim_infscite	CACHED	0	867ms	194ms	2.2 MB	2.2 MB
+251	mat_infscite (8)	mat_infscite	CACHED	0	1.1s	398ms	2.1 MB	2.1 MB
+269	mat_infscite (3)	mat_infscite	CACHED	0	1.1s	388ms	2.2 MB	2.2 MB
+254	trim_infscite (20)	trim_infscite	CACHED	0	618ms	71ms	0	0
+283	mat_infscite (23)	mat_infscite	CACHED	0	839ms	389ms	2.2 MB	2.2 MB
+331	mat_infscite (7)	mat_infscite	CACHED	0	1.3s	417ms	2.2 MB	2.2 MB
+300	mat_infscite (48)	mat_infscite	CACHED	0	375ms	167ms	26.3 MB	26.5 MB
+284	mat_infscite (16)	mat_infscite	CACHED	0	1.1s	466ms	2.1 MB	2.1 MB
+287	mat_infscite (2)	mat_infscite	CACHED	0	1.3s	542ms	2.2 MB	2.2 MB
+257	trim_infscite (18)	trim_infscite	CACHED	0	795ms	153ms	0	0
+280	trim_infscite (22)	trim_infscite	CACHED	0	561ms	80ms	0	0
+351	mk_plot	mk_plot	CACHED	0	2m 34s	2m 32s	222.4 MB	222.4 MB
