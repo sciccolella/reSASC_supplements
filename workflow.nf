@@ -17,6 +17,7 @@ process cvt_scite_input {
 
 process run_infscite {
   errorStrategy 'ignore'
+  publishDir "$baseDir/results/$params.plotname/infscite", mode: "copy"
 
   input:
   path in_mat
@@ -38,6 +39,7 @@ process run_infscite {
 
 process trim_infscite {
   cache true
+  publishDir "$baseDir/results/$params.plotname/infscite", mode: "copy"
   input:
   path tin
 
@@ -52,6 +54,7 @@ process trim_infscite {
 
 process mat_infscite {
   cache true
+  publishDir "$baseDir/results/$params.plotname/infscite", mode: "copy"
   input:
   path tin
 
@@ -66,6 +69,7 @@ process mat_infscite {
 
 process run_resasc {
   errorStrategy 'ignore'
+  publishDir "$baseDir/results/$params.plotname/resasc", mode: "copy"
 
   cpus 8
 
@@ -91,6 +95,7 @@ process run_resasc {
 
 process run_sasc {
   errorStrategy 'ignore'
+  publishDir "$baseDir/results/$params.plotname/sasc", mode: "copy"
 
   cpus 8
 
@@ -116,6 +121,7 @@ process run_sasc {
 
 process run_ppsasc {
   errorStrategy 'ignore'
+  publishDir "$baseDir/results/$params.plotname/ppsasc", mode: "copy"
 
   cpus 8
 
