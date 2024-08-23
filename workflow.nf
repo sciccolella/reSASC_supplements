@@ -144,6 +144,8 @@ process mk_plot {
   conda "./envs/plot.yaml"
   cpus 1
 
+  publishDir "$baseDir/plots/$params.plotname/", mode: "copy"
+
   input:
   path inmat
   path gmat
@@ -159,9 +161,8 @@ process mk_plot {
   path minfscite
 
   output:
-  stdout
   // path "plotlog.txt", emit: log
-  // path "*.csv", emit: csv
+  path "*.csv", emit: csv
 
 
   script:
@@ -207,5 +208,5 @@ workflow {
     res_resasc.mat | collect, res_sasc.mat | collect, res_ppsasc.mat | collect, minfscite | collect )
   
   // res_resasc.mat | view
-  rplot| view
+  rplot
 }
